@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mragerlp/VASCOUT/blob/main/schemas/foundry_snapshot.schema.json",
+  "title": "VASCOUT canonical Foundry snapshot envelope",
+  "type": "array",
+  "minItems": 86,
+  "maxItems": 86,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["record_id", "collection", "payload_json"],
+    "properties": {
+      "record_id": {"type": "string", "minLength": 1},
+      "collection": {
+        "type": "string",
+        "enum": ["sources", "claim_audits", "requirements", "components", "research_questions", "partner_prospects", "relationships"]
+      },
+      "payload_json": {"type": "string", "contentMediaType": "application/json"}
+    }
+  }
+}

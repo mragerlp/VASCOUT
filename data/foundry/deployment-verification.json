@@ -1,0 +1,25 @@
+{
+  "observed_on": "2026-11-03",
+  "origin_revision": 10,
+  "pipeline_rid": "ri.eddie.main.pipeline.93651d29-0e01-4a92-ba64-93b72c17f433",
+  "dataset_rid": "ri.foundry.main.dataset.70f6b3c5-af3f-4faa-8e00-473d27c20b83",
+  "pipeline_deployment_status": "SUCCEEDED",
+  "pipeline_errors": 0,
+  "persisted_output_status": "VERIFIED",
+  "row_count": 86,
+  "columns": ["record_id", "collection", "payload_json"],
+  "verification_method": "Native Foundry SQL GROUP BY collection: count, unique record IDs, sum of payload JSON character lengths; compared with exact normalized repository values",
+  "sql_execution_ms": 697,
+  "collections": {
+    "claim_audits": {"rows": 6, "unique_ids": 6, "payload_characters": 4782},
+    "components": {"rows": 5, "unique_ids": 5, "payload_characters": 3509},
+    "partner_prospects": {"rows": 8, "unique_ids": 8, "payload_characters": 18930},
+    "relationships": {"rows": 20, "unique_ids": 20, "payload_characters": 7950},
+    "requirements": {"rows": 11, "unique_ids": 11, "payload_characters": 5306},
+    "research_questions": {"rows": 6, "unique_ids": 6, "payload_characters": 3799},
+    "sources": {"rows": 30, "unique_ids": 30, "payload_characters": 24435}
+  },
+  "pilot_frontend_status": "BUILD_IN_PROGRESS",
+  "application_behavior_verified": false,
+  "clinical_validation_status": "UNVERIFIED"
+}

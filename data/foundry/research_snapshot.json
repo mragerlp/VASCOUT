@@ -1,0 +1,432 @@
+[
+  {
+    "record_id": "vascout:source:S01",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S01\",\"id\":\"S01\",\"title\":\"Veinlite LEDX — directions for use\",\"year\":\"Current DFU\",\"url\":\"https://dfu.veinlite.com/dfu/ledx/index.html\",\"setting\":\"Manufacturer\",\"modality\":\"Optical\",\"quote\":\"These plastic covers are not sterile.\",\"supports\":\"Visible side-transillumination; 24 orange and 8 red LEDs. A useful baseline for superficial vessel visibility.\",\"limits\":\"Not NIR camera projection or PA tomography. Manufacturer specifications are not comparative clinical proof. Direct DFU read; exact wavelengths unverified.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S02",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S02\",\"id\":\"S02\",\"title\":\"Photoacoustic vector tomography for deep haemodynamic imaging\",\"year\":\"2024\",\"url\":\"https://pubmed.ncbi.nlm.nih.gov/38036619/\",\"setting\":\"Healthy human\",\"modality\":\"Photoacoustic\",\"quote\":\"an axial resolution of 125 μm and a lateral resolution of 150 μm.\",\"supports\":\"Healthy hand/arm vascular flow measurements deeper than 5 mm in the reported system.\",\"limits\":\"Linear array and fiber delivery, not this probe. The 15 mm focal length is not proven 15 mm human imaging depth. Abstract/figures read; full-text access incomplete.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S03",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S03\",\"id\":\"S03\",\"title\":\"Photoacoustic imaging of human vasculature using LED versus laser illumination\",\"year\":\"2021\",\"url\":\"https://pubmed.ncbi.nlm.nih.gov/33435375/\",\"setting\":\"Healthy human\",\"modality\":\"Photoacoustic\",\"quote\":\"tradeoffs between portability, cost, optical energy and frame rate\",\"supports\":\"850 nm LED-PAI is published prior work, including phantom and healthy wrist/forearm comparisons.\",\"limits\":\"Mechanically scanned, water-coupled research acquisition is not handheld field validation. No proof of the proposed 120 Hz integrated pipeline. Abstract verified; direct publisher access limited.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S04",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S04\",\"id\":\"S04\",\"title\":\"Monitoring peripheral hemodynamic response to changes in blood pressure via photoacoustic imaging\",\"year\":\"2022\",\"url\":\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8918860/\",\"setting\":\"Clinical\",\"modality\":\"Photoacoustic\",\"quote\":\"20 HD patients and 11 healthy subjects\",\"supports\":\"Peripheral perfusion observations around dialysis and exercise motivate further research.\",\"limits\":\"Not a validated dehydration meter or hemorrhagic-shock classifier. Primary-source retrieval by research reviewer; full article not independently reread by root.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S05",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S05\",\"id\":\"S05\",\"title\":\"Thin ceramic PZT dual- and multi-frequency pMUT arrays for photoacoustic imaging\",\"year\":\"2022\",\"url\":\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9668999/\",\"setting\":\"Phantom\",\"modality\":\"Photoacoustic\",\"quote\":\"only 2D photoacoustic images can be reconstructed without depth scanning.\",\"supports\":\"Related ring and square sensor-array prior art tested with pencil leads in agar.\",\"limits\":\"Not a real-time human vascular access device. Novelty and freedom to operate remain unverified. Indexed primary text reviewed; direct PMC access challenged.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S06",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S06\",\"id\":\"S06\",\"title\":\"The confounding effects of skin colour in photoacoustic imaging\",\"year\":\"2026\",\"url\":\"https://www.nature.com/articles/s41467-026-74380-7\",\"setting\":\"Healthy human\",\"modality\":\"Photoacoustic\",\"quote\":\"no generalisable bias correction has been demonstrated.\",\"supports\":\"Study of 42 healthy participants covering Fitzpatrick I–VI and vitiligo; optical and acoustic confounding affects measurements.\",\"limits\":\"No demonstrated skin-tone invariance for VASCOUT. Direct article read; published 17 June 2026.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S07",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S07\",\"id\":\"S07\",\"title\":\"TCCC Guidelines — vascular access claim audit\",\"year\":\"2026\",\"url\":\"https://learning-media.allogy.com/api/v1/pdf/18ccfdfc-a076-47e9-8a34-376efdd81b43/contents\",\"setting\":\"Guideline\",\"modality\":\"Clinical practice\",\"quote\":\"Circulation\",\"supports\":\"The 1 May 2026 guideline provides the clinical context for the vascular-access claim audit.\",\"limits\":\"Its access section does not specify Gemini’s six-second classifier or 1.2 mm vessel threshold. Direct PDF read. This app does not give treatment instructions.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S08",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S08\",\"id\":\"S08\",\"title\":\"Bedside ultrasound for detection of soft tissue foreign bodies: a cadaveric study\",\"year\":\"2009\",\"url\":\"https://pubmed.ncbi.nlm.nih.gov/18930374/\",\"setting\":\"Cadaver\",\"modality\":\"Ultrasound\",\"quote\":\"Inter-observer reliability was poor.\",\"supports\":\"In this study: six cadavers, six physicians, 900 examinations; sensitivity 52.6%, specificity 47.2%.\",\"limits\":\"Small objects ≤5 mm at depths ≤3 cm. Results are setting-specific; negative imaging cannot universally exclude fragments. Abstract directly read.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S09",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S09\",\"id\":\"S09\",\"title\":\"Ultrasound evaluation of soft-tissue foreign bodies by US Army medics\",\"year\":\"2018\",\"url\":\"https://pubmed.ncbi.nlm.nih.gov/30283201/\",\"setting\":\"Simulation\",\"modality\":\"Ultrasound\",\"quote\":\"sensitivity and specificity of 73% and 78%\",\"supports\":\"After two hours of training, 28 medics studied wooden objects in chicken-thigh models.\",\"limits\":\"Simulated-use evidence, not injured-human or battlefield validation. Primary abstract and indexed article reviewed; direct PMC retrieval limited.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S10a",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S10a\",\"id\":\"S10a\",\"title\":\"Ultrasonography-guided peripheral intravenous access versus traditional approaches\",\"year\":\"2005\",\"url\":\"https://pubmed.ncbi.nlm.nih.gov/16271677/\",\"setting\":\"Clinical\",\"modality\":\"Ultrasound\",\"quote\":\"Success rate was greater for the ultrasonographic group (97%) versus control (33%)\",\"supports\":\"Reported benefit in 60 difficult-access patients at two hospitals.\",\"limits\":\"Odd/even-day allocation and two US operators; not concealed randomized assignment. Read alongside S10b. Indexed primary abstract; full article unverified.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S10b",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S10b\",\"id\":\"S10b\",\"title\":\"Ultrasonographically guided peripheral intravenous cannulation: a randomized trial\",\"year\":\"2009\",\"url\":\"https://pubmed.ncbi.nlm.nih.gov/18824276/\",\"setting\":\"Clinical\",\"modality\":\"Ultrasound\",\"quote\":\"Superiority of ultrasonographically guided peripheral intravenous cannulation is not supported by this study.\",\"supports\":\"A 59-patient ED trial did not demonstrate improvement in attempts, time or satisfaction.\",\"limits\":\"Conflicting evidence matters; results depend on workflow and setting. Indexed primary abstract; full article unverified.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S11",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S11\",\"id\":\"S11\",\"title\":\"FDA: Imagio Breast Imaging System — P200003\",\"year\":\"2021\",\"url\":\"https://www.fda.gov/medical-devices/recently-approved-devices/imagior-breast-imaging-system-p200003\",\"setting\":\"Regulator\",\"modality\":\"Hybrid\",\"quote\":\"uses both optoacoustic (OA) and ultrasound (US) to image breast tissues\",\"supports\":\"An approved OA/US product exists for a specified breast-imaging indication.\",\"limits\":\"Unrelated indication: no VASCOUT clearance, safety/effectiveness or predetermined legal pathway follows. Direct FDA overview read.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:S12",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:S12\",\"id\":\"S12\",\"title\":\"A device for improving the visual clarity and dimension of veins\",\"year\":\"2018\",\"url\":\"https://ntu-repository.worktribe.com/output/681739/a-device-for-improving-the-visual-clarity-and-dimension-of-veins\",\"setting\":\"Healthy human\",\"modality\":\"Contact interface\",\"quote\":\"20 healthy volunteers\",\"supports\":\"Related vacuum-device research used a healthy-volunteer crossover study.\",\"limits\":\"Not shock patients; does not establish the Gemini suction range or outcome. Indexed abstract reviewed; repository/PDF fetch gaps. Suction excluded from initial concept.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:L01",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:L01\",\"id\":\"L01\",\"title\":\"TI AFE5832LP — ultrasound analog front end\",\"year\":\"Manufacturer\",\"url\":\"https://www.ti.com/product/AFE5832LP\",\"setting\":\"Manufacturer\",\"modality\":\"Electronics\",\"quote\":\"The VCA die has 32 channels\",\"supports\":\"32 receive inputs with 16 multiplexed ADC channels.\",\"limits\":\"Not a single 64/128-channel transceiver. Complete transmit/receive architecture, bandwidth and power budget are unresolved. Direct manufacturer page read.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:L02",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:L02\",\"id\":\"L02\",\"title\":\"Analog Devices MAX2082 — octal ultrasound transceiver\",\"year\":\"Manufacturer\",\"url\":\"https://www.analog.com/en/products/max2082.html\",\"setting\":\"Manufacturer\",\"modality\":\"Electronics\",\"quote\":\"fully integrated octal ultrasound transceiver\",\"supports\":\"Eight channels per device, with integrated transmit and receive functions.\",\"limits\":\"Does not establish feasibility of the proposed 128-channel dual-band C-ring. Direct manufacturer page read.\",\"status\":\"CONFIRMED\",\"scope\":\"evidence\",\"original_status\":\"CONFIRMED\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:G01",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:G01\",\"id\":\"G01\",\"title\":\"User-supplied Gemini concepts — audited research inputs\",\"year\":\"2026\",\"url\":null,\"setting\":\"Concept material\",\"modality\":\"Hybrid\",\"quote\":\"production-ready\",\"supports\":\"Motivating ideas: visible vascular mapping, field access, LED-PAI and a possible C-ring geometry.\",\"limits\":\"Two supplied PDFs and three text attachments are proposals, not studies. Six latest-code failure cases were reproduced using independent arithmetic; no supplied code was executed. No autonomous diagnosis or treatment logic adopted.\",\"status\":\"THIRD-PARTY\",\"scope\":\"evidence\",\"original_status\":\"THIRD-PARTY\",\"status_semantics\":\"Bounded finding reported by the cited source; not VASCOUT validation\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P01",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P01\",\"id\":\"P01\",\"title\":\"Verasonics - About and photoacoustics capabilities\",\"url\":\"https://verasonics.com/about-verasonics/\",\"access\":\"Direct official page read\",\"limit\":\"Manufacturer capability statements; not proof of VASCOUT integration, safety or benefit.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P02",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P02\",\"id\":\"P02\",\"title\":\"Verasonics - Contact and collaborations\",\"url\":\"https://verasonics.com/contact-us/\",\"access\":\"Direct official page read\",\"limit\":\"No VASCOUT-specific invitation, budget, loaner or acceptance confirmed.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P03",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P03\",\"id\":\"P03\",\"title\":\"CYBERDYNE - Acoustic X research system\",\"url\":\"https://www.cyberdyne.jp/en/products/acoustic-x\",\"access\":\"Direct official English page read, reached through its language link\",\"limit\":\"Product descriptions and linked-study summaries are not an independent efficacy audit; no VASCOUT novelty or field validation established.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P04",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P04\",\"id\":\"P04\",\"title\":\"CYBERDYNE - Contact\",\"url\":\"https://www.cyberdyne.jp/en/contact\",\"access\":\"Direct official page read\",\"limit\":\"Product inquiry route, not an open research award or confirmed collaboration.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P05",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P05\",\"id\":\"P05\",\"title\":\"FUJIFILM Sonosite - Collaborate With Us on Advancing POCUS AI\",\"url\":\"https://www.sonosite.com/about/collaborate-us-advancing-pocus-ai\",\"access\":\"Official indexed page text read; direct open returned redirect loop\",\"limit\":\"Availability needs reconfirmation. Program is AI-focused and clinician-led; no commitment to PA hardware or this concept. Eligibility, support and funding unverified.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P06",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P06\",\"id\":\"P06\",\"title\":\"FUJIFILM Sonosite - Military Medicine Ultrasound\",\"url\":\"https://www.sonosite.com/specialties/military-medicine-ultrasound\",\"access\":\"Official indexed page text read; direct open returned redirect loop\",\"limit\":\"Historical/company-reported context; not endorsement, acceptance or VASCOUT field evidence.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P07",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P07\",\"id\":\"P07\",\"title\":\"BD - SiteRite 9 Ultrasound System\",\"url\":\"https://www.bd.com/en-us/products-and-solutions/products/product-families/site-rite-9-ultrasound-system\",\"access\":\"Direct official page read\",\"limit\":\"Manufacturer statements about its own system. Some needle-tracking comparisons are vein-block data, not clinical-performance proof; no VASCOUT equivalence.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P08",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P08\",\"id\":\"P08\",\"title\":\"BD - Innovation and Idea Submission Process\",\"url\":\"https://www.bd.com/en-us/about-bd/innovation-at-bd\",\"access\":\"Direct official page read, including submission/legal section\",\"limit\":\"No submission sent. Detailed terms and project fit require review before any future submission; no acceptance or funding guaranteed.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P09",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P09\",\"id\":\"P09\",\"title\":\"Teleflex - Emergency/Trauma Products\",\"url\":\"https://www.teleflex.com/usa/en/product-areas/vascular-access/emergency-trauma-products/trauma-products/index.html\",\"access\":\"Direct official page read\",\"limit\":\"Manufacturer portfolio statement; no open VASCOUT research program, imaging integration or measured benefit established.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P10",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P10\",\"id\":\"P10\",\"title\":\"Teleflex - Request More Information, Emergency/Trauma Products\",\"url\":\"https://www.teleflex.com/usa/en/product-areas/vascular-access/emergency-trauma-products/trauma-products/request-info.html\",\"access\":\"Direct official page read\",\"limit\":\"General inquiry route; clinical/R&D routing and study sponsorship unconfirmed. Form not submitted.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P11",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P11\",\"id\":\"P11\",\"title\":\"USAISR - Organ Support and Automation Technologies\",\"url\":\"https://usaisr.health.mil/index.cfm/research/ccct/organ\",\"access\":\"Direct official page read\",\"limit\":\"Mission/capability evidence, not a VASCOUT requirement, award, invitation or approval.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P12",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P12\",\"id\":\"P12\",\"title\":\"USAISR - Partnering with USAISR\",\"url\":\"https://usaisr.health.mil/index.cfm/research/partnering\",\"access\":\"Direct official page read\",\"limit\":\"Agreement mechanism and intake route only; eligibility, resources and Army/DHA interest in VASCOUT unconfirmed.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P13",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P13\",\"id\":\"P13\",\"title\":\"MTEC - Join and membership requirements\",\"url\":\"https://mtec-sc.org/join\",\"access\":\"Direct official page read\",\"limit\":\"No active solicitation was audited for VASCOUT eligibility or technical fit. Membership is not an award and does not validate a device. No enrollment or payment.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:source:P14",
+    "collection": "sources",
+    "payload_json": "{\"record_id\":\"vascout:source:P14\",\"id\":\"P14\",\"title\":\"University of Michigan BME - Xueding Wang and Optical Imaging Laboratory\",\"url\":\"https://bme.umich.edu/people/wang-xueding/\",\"access\":\"Direct official BME profile read\",\"limit\":\"Adjacent methodological expertise; no difficult-IV, military, study access, capacity or collaboration acceptance established. Separate lab homepage returned403; profile supplies the usable direct source.\",\"scope\":\"partner\",\"original_status\":\"NOT_ASSIGNED\",\"status_semantics\":\"Organization capability or engagement-route reference; no partner commitment\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:claim-audit:ledx",
+    "collection": "claim_audits",
+    "payload_json": "{\"record_id\":\"vascout:claim-audit:ledx\",\"id\":\"ledx\",\"claim\":\"LEDX is NIR tomography\",\"finding\":\"LEDX uses visible side-transillumination. NIR camera imaging and PA tomography are different methods.\",\"status\":\"CONFIRMED\",\"source\":\"S01\",\"original_claim\":\"LEDX is NIR tomography\",\"audit_finding\":\"LEDX uses visible side-transillumination. NIR camera imaging and PA tomography are different methods.\",\"audit_status\":\"CONFIRMED\",\"status_applies_to\":\"audit_finding\",\"source_record_id\":\"vascout:source:S01\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:claim-audit:depth",
+    "collection": "claim_audits",
+    "payload_json": "{\"record_id\":\"vascout:claim-audit:depth\",\"id\":\"depth\",\"claim\":\"15 mm or 25 mm depth is already proven for this design\",\"finding\":\"Published performance is specific to each research setup. Focal length and proposed test depths are not demonstrated VASCOUT operating depths.\",\"status\":\"UNVERIFIED\",\"source\":\"S02\",\"original_claim\":\"15 mm or 25 mm depth is already proven for this design\",\"audit_finding\":\"Published performance is specific to each research setup. Focal length and proposed test depths are not demonstrated VASCOUT operating depths.\",\"audit_status\":\"UNVERIFIED\",\"status_applies_to\":\"audit_finding\",\"source_record_id\":\"vascout:source:S02\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:claim-audit:skin",
+    "collection": "claim_audits",
+    "payload_json": "{\"record_id\":\"vascout:claim-audit:skin\",\"id\":\"skin\",\"claim\":\"Multispectral optics remove skin-colour bias\",\"finding\":\"Bias remains a research problem; diverse optical conditions and skin pigmentation require explicit evaluation.\",\"status\":\"UNVERIFIED\",\"source\":\"S06\",\"original_claim\":\"Multispectral optics remove skin-colour bias\",\"audit_finding\":\"Bias remains a research problem; diverse optical conditions and skin pigmentation require explicit evaluation.\",\"audit_status\":\"UNVERIFIED\",\"status_applies_to\":\"audit_finding\",\"source_record_id\":\"vascout:source:S06\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:claim-audit:autonomy",
+    "collection": "claim_audits",
+    "payload_json": "{\"record_id\":\"vascout:claim-audit:autonomy\",\"id\":\"autonomy\",\"claim\":\"The Gemini fusion code is production-ready\",\"finding\":\"Static and scalar review found six failure cases, including depth-only needle containment, empty candidate selection and missing-signal treatment directives. The code is excluded.\",\"status\":\"UNVERIFIED\",\"source\":\"G01\",\"original_claim\":\"The Gemini fusion code is production-ready\",\"audit_finding\":\"Static and scalar review found six failure cases, including depth-only needle containment, empty candidate selection and missing-signal treatment directives. The code is excluded.\",\"audit_status\":\"UNVERIFIED\",\"status_applies_to\":\"audit_finding\",\"source_record_id\":\"vascout:source:G01\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:claim-audit:bom",
+    "collection": "claim_audits",
+    "payload_json": "{\"record_id\":\"vascout:claim-audit:bom\",\"id\":\"bom\",\"claim\":\"The cited AFE chips each have 64/128 channels\",\"finding\":\"AFE5832LP has 32 receive inputs; MAX2082 has eight transceiver channels. A complete channel architecture is unresolved.\",\"status\":\"CONFIRMED\",\"source\":\"L01\",\"original_claim\":\"The cited AFE chips each have 64/128 channels\",\"audit_finding\":\"AFE5832LP has 32 receive inputs; MAX2082 has eight transceiver channels. A complete channel architecture is unresolved.\",\"audit_status\":\"CONFIRMED\",\"status_applies_to\":\"audit_finding\",\"source_record_id\":\"vascout:source:L01\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:claim-audit:novelty",
+    "collection": "claim_audits",
+    "payload_json": "{\"record_id\":\"vascout:claim-audit:novelty\",\"id\":\"novelty\",\"claim\":\"The hybrid concept is unprecedented or cleared\",\"finding\":\"PA/US systems and ring sensors have prior art. Patent novelty, regulatory pathway and VASCOUT safety/effectiveness have not been established.\",\"status\":\"UNVERIFIED\",\"source\":\"S05\",\"original_claim\":\"The hybrid concept is unprecedented or cleared\",\"audit_finding\":\"PA/US systems and ring sensors have prior art. Patent novelty, regulatory pathway and VASCOUT safety/effectiveness have not been established.\",\"audit_status\":\"UNVERIFIED\",\"status_applies_to\":\"audit_finding\",\"source_record_id\":\"vascout:source:S05\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:envelope",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:envelope\",\"id\":\"envelope\",\"item\":\"Probe envelope\",\"target\":\"150 × 56 × 34 mm\",\"meaning\":\"Illustrative packaging choice\",\"verify\":\"Ergonomics and integration study\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:band",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:band\",\"id\":\"band\",\"item\":\"Ultrasound band\",\"target\":\"7–15 MHz candidate\",\"meaning\":\"Vendor hardware selection pending\",\"verify\":\"Bandwidth and point-spread-function measurements\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:illumination",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:illumination\",\"id\":\"illumination\",\"item\":\"Photoacoustic source\",\"target\":\"850 nm LED / 1064 nm pulsed source\",\"meaning\":\"Alternative laboratory configurations\",\"verify\":\"Signal, exposure, thermal and acquisition budgets\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:depth",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:depth\",\"id\":\"depth\",\"item\":\"Vessel-depth experiment\",\"target\":\"2 / 5 / 10 / 15 mm\",\"meaning\":\"Phantom test positions, not operating-depth claims\",\"verify\":\"Detection rate and localization error at every depth\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:diameter",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:diameter\",\"id\":\"diameter\",\"item\":\"Vessel-size experiment\",\"target\":\"1 / 2 / 4 / 6 mm\",\"meaning\":\"Phantom sizes, not clinical access thresholds\",\"verify\":\"Segmentation and diameter error with confidence intervals\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:volume",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:volume\",\"id\":\"volume\",\"item\":\"3D acquisition\",\"target\":\"Tracked sweep or controlled bench scan\",\"meaning\":\"No real-time volumetric performance claim\",\"verify\":\"Registration error, motion sensitivity and coverage\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:benefit",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:benefit\",\"id\":\"benefit\",\"item\":\"Photoacoustic benefit\",\"target\":\"US alone versus US + PA\",\"meaning\":\"Same task and ground truth\",\"verify\":\"Predefined incremental benefit, failures and added time\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:contact",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:contact\",\"id\":\"contact\",\"item\":\"Contact interface\",\"target\":\"Passive shoe + force sensor\",\"meaning\":\"No suction actuation\",\"verify\":\"Coupling, deformation, cleaning and sterility research\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:fragments",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:fragments\",\"id\":\"fragments\",\"item\":\"Foreign-body study\",\"target\":\"Multiple materials, depths and orientations\",\"meaning\":\"Negative imaging cannot exclude fragments\",\"verify\":\"Sensitivity, specificity and localization error\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:field",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:field\",\"id\":\"field\",\"item\":\"Field suitability\",\"target\":\"Bench → simulated use\",\"meaning\":\"No field-ready rating\",\"verify\":\"Gloves, motion, lighting, cleaning and usability\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:requirement:unknown",
+    "collection": "requirements",
+    "payload_json": "{\"record_id\":\"vascout:requirement:unknown\",\"id\":\"unknown\",\"item\":\"Missing or invalid signal\",\"target\":\"Show UNKNOWN\",\"meaning\":\"Never infer a safe vessel from absent data\",\"verify\":\"Dropout, corruption, calibration and motion cases\",\"record_kind\":\"DESIGN_TARGET\",\"measured_performance\":false,\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:component:housing",
+    "collection": "components",
+    "payload_json": "{\"record_id\":\"vascout:component:housing\",\"id\":\"housing\",\"number\":\"01\",\"name\":\"Probe enclosure\",\"short\":\"Housing\",\"color\":\"#414d55\",\"purpose\":\"A deliberate grip for low-contact-force imaging, with two controls and a visible status strip.\",\"interface\":\"Illustrative envelope: 150 × 56 × 34 mm. Tether routes to a separate acquisition unit.\",\"maturity\":\"Concept geometry\",\"test\":\"Gloved reach, cleaning, balance and contact-force usability studies.\",\"record_kind\":\"CONCEPT_COMPONENT\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:component:sensor",
+    "collection": "components",
+    "payload_json": "{\"record_id\":\"vascout:component:sensor\",\"id\":\"sensor\",\"number\":\"02\",\"name\":\"Ultrasound cartridge\",\"short\":\"Acoustic sensor\",\"color\":\"#80b5bc\",\"purpose\":\"The primary structural imaging channel. Begin with a conventional linear-array module.\",\"interface\":\"Candidate 7–15 MHz band; acoustic coupling, receive chain and synchronized acquisition.\",\"maturity\":\"Bench component selection\",\"test\":\"Point-spread function, vessel localization, near-field performance and deformation.\",\"record_kind\":\"CONCEPT_COMPONENT\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:component:optics",
+    "collection": "components",
+    "payload_json": "{\"record_id\":\"vascout:component:optics\",\"id\":\"optics\",\"number\":\"03\",\"name\":\"Photoacoustic rails\",\"short\":\"Optical rails\",\"color\":\"#C8742B\",\"purpose\":\"Experimental hemoglobin contrast, registered with ultrasound rather than used as an autonomous diagnosis.\",\"interface\":\"Tethered laboratory source first. Evaluate 850 nm LEDs and a 1064 nm pulsed-source alternative.\",\"maturity\":\"Experimental extension\",\"test\":\"Incremental benefit over US alone, exposure, heating, pigmentation effects and motion.\",\"record_kind\":\"CONCEPT_COMPONENT\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:component:coupling",
+    "collection": "components",
+    "payload_json": "{\"record_id\":\"vascout:component:coupling\",\"id\":\"coupling\",\"number\":\"04\",\"name\":\"Passive contact shoe\",\"short\":\"Contact shoe\",\"color\":\"#9eb5a4\",\"purpose\":\"Replaceable interface with an open working corridor and proposed contact-force sensing.\",\"interface\":\"Acoustic and optical transmission; no active suction in the initial design.\",\"maturity\":\"Interface research\",\"test\":\"Transmission loss, air gaps, vessel compression, cleaning and sterility requirements.\",\"record_kind\":\"CONCEPT_COMPONENT\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:component:electronics",
+    "collection": "components",
+    "payload_json": "{\"record_id\":\"vascout:component:electronics\",\"id\":\"electronics\",\"number\":\"05\",\"name\":\"Acquisition & monitoring\",\"short\":\"Electronics\",\"color\":\"#718e76\",\"purpose\":\"Coordinate acquisition and monitor contact and temperature, with a proposed independent optical interlock.\",\"interface\":\"Separate bench source/acquisition unit; the complete system is not contained in this handle.\",\"maturity\":\"System architecture\",\"test\":\"Synchronization, registration, failure states, latency, power and thermal budgets.\",\"record_kind\":\"CONCEPT_COMPONENT\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:question:imaging",
+    "collection": "research_questions",
+    "payload_json": "{\"record_id\":\"vascout:question:imaging\",\"id\":\"imaging\",\"number\":\"01\",\"title\":\"Does the added modality help?\",\"stage\":\"Bench imaging\",\"prompt\":\"Compare ultrasound alone with registered US + PA using the same task and ground truth.\",\"gate\":\"Measure localization, registration, failed acquisitions and additional time. Predefine what benefit would justify the extra system.\",\"validation_status\":\"UNVERIFIED\",\"review_status\":\"OPEN\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:question:coupling",
+    "collection": "research_questions",
+    "payload_json": "{\"record_id\":\"vascout:question:coupling\",\"id\":\"coupling\",\"number\":\"02\",\"title\":\"Can contact preserve the anatomy?\",\"stage\":\"Calibrated phantoms\",\"prompt\":\"Evaluate the passive shoe, force sensing, air gaps and motion across compliant vessel phantoms.\",\"gate\":\"Record vessel deformation and coupling loss. Establish materials, cleaning and sterility requirements.\",\"validation_status\":\"UNVERIFIED\",\"review_status\":\"OPEN\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:question:pigmentation",
+    "collection": "research_questions",
+    "payload_json": "{\"record_id\":\"vascout:question:pigmentation\",\"id\":\"pigmentation\",\"number\":\"03\",\"title\":\"Where does optical contrast fail?\",\"stage\":\"Bias & robustness\",\"prompt\":\"Vary attenuation, pigmentation, depth, hematoma-like absorbers and illumination geometry.\",\"gate\":\"Report performance by condition. Include UNKNOWN states and uncertainty instead of a universal correction claim.\",\"validation_status\":\"UNVERIFIED\",\"review_status\":\"OPEN\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:question:foreign-body",
+    "collection": "research_questions",
+    "payload_json": "{\"record_id\":\"vascout:question:foreign-body\",\"id\":\"foreign-body\",\"number\":\"04\",\"title\":\"Which objects can be localized?\",\"stage\":\"Separate phantom study\",\"prompt\":\"Study metal, glass and other relevant materials across sizes, depths and orientations.\",\"gate\":\"Report sensitivity, specificity and localization error. No negative result may imply all fragments have been excluded.\",\"validation_status\":\"UNVERIFIED\",\"review_status\":\"OPEN\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:question:usability",
+    "collection": "research_questions",
+    "payload_json": "{\"record_id\":\"vascout:question:usability\",\"id\":\"usability\",\"number\":\"05\",\"title\":\"Can a trained user interpret it?\",\"stage\":\"Simulated use\",\"prompt\":\"Review gloved controls, attention demands, misleading overlays, motion and low-perfusion use cases with clinicians.\",\"gate\":\"Measure task completion and use errors. Human-factors review precedes claims about field benefit.\",\"validation_status\":\"UNVERIFIED\",\"review_status\":\"OPEN\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:question:clinical-pathway",
+    "collection": "research_questions",
+    "payload_json": "{\"record_id\":\"vascout:question:clinical-pathway\",\"id\":\"clinical-pathway\",\"number\":\"06\",\"title\":\"What evidence would permit human use?\",\"stage\":\"Expert review → approved studies\",\"prompt\":\"Define intended use with clinical, regulatory and safety experts before appropriately approved human studies.\",\"gate\":\"Clinical safety, effectiveness, legal pathway and field suitability remain unverified. Reviewed below means discussed, not clinically validated.\",\"validation_status\":\"UNVERIFIED\",\"review_status\":\"OPEN\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:verasonics",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:verasonics\",\"id\":\"verasonics\",\"name\":\"Verasonics\",\"category\":\"Imaging & hardware\",\"role\":\"Programmable US/PA bench platform\",\"sequence\":\"Feasibility first\",\"sourceIds\":[\"P01\",\"P02\"],\"fact\":\"Verasonics describes research ultrasound with receive-only photoacoustic operation and interleaved B-mode/PAI. It explicitly invites collaborations with companies and researchers.\",\"fit\":\"A plausible platform discussion for synchronized US/PA acquisition and reproducible raw-data experiments before custom probe electronics.\",\"study\":\"Scope an ultrasound-only versus US+PA phantom comparison using known vessel geometry, controlled contact force and motion. Measure localization error, dropout, added acquisition time and registration error.\",\"deliverable\":\"A bench architecture, component/trigger compatibility matrix and agreed experimental protocol with stop criteria.\",\"gap\":\"Hardware compatibility, system configuration, access cost, licensing, staff time and collaboration interest are unverified. A programmable platform is not a deployable field device.\",\"route\":\"Published collaboration/contact route; ask for technical feasibility discussion.\",\"routeUrl\":\"https://verasonics.com/contact-us/\",\"subject\":\"Research discussion: a reproducible US/PA vascular-imaging benchmark\",\"pitch\":\"VASCOUT is an unvalidated vascular-imaging concept centered on low-contact-force ultrasound, with an experimental photoacoustic extension. Your programmable research platform appears relevant to testing the acquisition chain before custom hardware. Would your team consider a technical scoping discussion for a matched US-only versus US+PA phantom study? We propose agreeing ground truth, trigger compatibility, localization and registration metrics, dropout reporting and a failure threshold before selecting a configuration. The first output would be a reproducible protocol and feasibility matrix; clinical or field benefit is not established.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:cyberdyne",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:cyberdyne\",\"id\":\"cyberdyne\",\"name\":\"CYBERDYNE / Acoustic X\",\"category\":\"Imaging & hardware\",\"role\":\"LED-PA comparator and prior art\",\"sequence\":\"Feasibility first\",\"sourceIds\":[\"P03\",\"P04\"],\"fact\":\"CYBERDYNE presents Acoustic X as an LED-based PA/US research system. Its page already lists vascular-access-related work and provides an Acoustic X inquiry category.\",\"fit\":\"A particularly relevant comparator and prior-art discussion for deciding whether a contact/quality-feedback concept adds anything to existing LED-PA research.\",\"study\":\"Compare a documented Acoustic X research configuration with ultrasound alone on matched phantoms; vary depth, diameter, optical attenuation, contact force and motion. Treat attenuation phantoms as limited models, not proof across human skin tones.\",\"deliverable\":\"A comparator protocol and an incremental-benefit report that includes negative results, exposure/thermal measurements and acquisition overhead.\",\"gap\":\"Equipment availability, configuration, data access, research support and willingness to collaborate are unverified. Related prior work means novelty cannot be assumed; no field-access outcome follows.\",\"route\":\"Official product inquiry; select Acoustic X and request research-team routing.\",\"routeUrl\":\"https://www.cyberdyne.jp/en/contact\",\"subject\":\"Research discussion: contact and image-quality limits in LED-PA vascular imaging\",\"pitch\":\"Your Acoustic X work already addresses LED-based PA/US and peripheral vascular targets, making it a relevant starting point for VASCOUT rather than evidence that the hybrid idea is new. Would your research team explore a comparator study focused on contact deformation, optical attenuation, motion and explicit invalid-signal reporting? We would agree a US-only baseline and measure incremental localization value, exposure, heating and added time. VASCOUT currently consists of a concept dossier and synthetic demonstration; the proposed collaboration would determine whether its interface and uncertainty-feedback ideas merit further development.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:michigan",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:michigan\",\"id\":\"michigan\",\"name\":\"University of Michigan / Optical Imaging Laboratory\",\"category\":\"Academic methods\",\"role\":\"Independent imaging methodology\",\"sequence\":\"Feasibility first\",\"sourceIds\":[\"P14\"],\"fact\":\"The official Michigan BME profile identifies the Optical Imaging Laboratory and research on photoacoustic imaging and systems combining light and ultrasound.\",\"fit\":\"Potential methodological input on optical/acoustic confounding, registration, phantom design and an independently interpretable comparison.\",\"study\":\"Co-design calibrated phantom experiments with independent geometry measurements, optical/acoustic characterization and a prespecified analysis plan. Audit whether image-quality feedback identifies invalid data without overstating anatomical confidence.\",\"deliverable\":\"A reviewed protocol, annotated failure taxonomy and transparent analysis plan; a possible publication would depend on agreement and results.\",\"gap\":\"Lab capacity, resources, data access and willingness are unconfirmed. The listed research is adjacent expertise, not proof of vascular-access or battlefield performance.\",\"route\":\"Official faculty/lab profile; request an investigator-led methods discussion.\",\"routeUrl\":\"https://bme.umich.edu/people/wang-xueding/\",\"subject\":\"Methods collaboration: ground truth and failure reporting for a US/PA concept\",\"pitch\":\"VASCOUT proposes clinician-controlled vascular visualization using ultrasound with an experimental PA channel. Your Optical Imaging Laboratory's light-and-ultrasound research appears relevant to a methods review before any clinical claims. Would the group consider helping define phantom ground truth, attenuation and contact-force controls, registration metrics and a prespecified failure analysis? We would value a study designed to find where the added channel fails as well as where it helps. The immediate ask is protocol critique and possible research scoping, with resources and publication terms to be agreed.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:usaisr",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:usaisr\",\"id\":\"usaisr\",\"name\":\"U.S. Army Institute of Surgical Research\",\"category\":\"Defense research\",\"role\":\"Military-medical requirements and simulation\",\"sequence\":\"Protocol shaping\",\"sourceIds\":[\"P11\",\"P12\"],\"fact\":\"USAISR's CRT3 page lists medical-device development and medical simulations. Its partnering page describes external collaboration and Business Development Office support for CRADAs and technology transfer.\",\"fit\":\"A potential requirements and simulated-use discussion for a clinician-controlled imaging concept in prolonged-care conditions.\",\"study\":\"After a credible bench protocol, define simulated tasks involving gloves, movement, setup, cleaning and degraded signal. Measure workflow burden and recognition of uncertainty; do not infer battlefield effectiveness from simulation.\",\"deliverable\":\"A research requirements map, simulation protocol and agreed go/no-go criteria tied to measured bench evidence.\",\"gap\":\"Mission alignment, agreement eligibility, investigator availability, funding and access to facilities are unverified. The public partnering page is not an award or invitation for this device.\",\"route\":\"Research Directorate Business Development Office through the published partnering resources.\",\"routeUrl\":\"https://usaisr.health.mil/index.cfm/research/partnering\",\"subject\":\"Research scoping: uncertainty-aware vascular imaging in simulated prolonged care\",\"pitch\":\"VASCOUT is a concept-stage, clinician-controlled vascular-imaging proposal; it has no demonstrated field or patient benefit. USAISR's device-development and simulation capabilities appear relevant to defining what evidence would make the concept worth testing. Would the Research Directorate consider a requirements discussion, routed through the appropriate partnering mechanism, on setup burden, contact deformation, degraded-signal recognition and gloved use? We would bring the concept dossier and a proposed US-only comparative bench protocol. The requested output is a measurable simulation plan and explicit reasons to proceed, revise or stop.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:sonosite",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:sonosite\",\"id\":\"sonosite\",\"name\":\"FUJIFILM Sonosite\",\"category\":\"Clinical workflow\",\"role\":\"POCUS workflow and image-quality research\",\"sequence\":\"Clinical investigator needed\",\"sourceIds\":[\"P05\",\"P06\"],\"fact\":\"Sonosite's official indexed pages describe military POCUS work and invite clinician/researcher collaboration on POCUS AI, validation, user testing and workflows under research agreements.\",\"fit\":\"A potential clinician-led workflow and quality-feedback discussion. Its published AI route is narrower than a general PA hardware partnership.\",\"study\":\"With a clinical investigator, define a simulated vascular-assessment task comparing ordinary ultrasound review with explicit image-quality/uncertainty feedback. Treat any future AI component as a separately validated research module.\",\"deliverable\":\"A workflow endpoint set, annotation/quality rubric and investigator-led protocol suitable for the program's scope.\",\"gap\":\"Direct page fetches returned redirect loops; indexed official text supports the lead. Current intake availability, PI eligibility, equipment/support and PA fit need confirmation. No support or funding is promised.\",\"route\":\"Published research-collaboration page; first confirm current program scope and clinician eligibility.\",\"routeUrl\":\"https://www.sonosite.com/about/collaborate-us-advancing-pocus-ai\",\"subject\":\"Clinician-led research scoping: image quality and uncertainty in difficult-access assessment\",\"pitch\":\"VASCOUT is an unvalidated concept for making peripheral anatomy and imaging uncertainty clearer to clinicians. Your published POCUS collaboration route suggests a possible fit for a clinician-led quality-feedback study, rather than an assumption of PA hardware support. Would your research team discuss eligibility and scope for a simulated vascular-assessment protocol comparing ultrasound review with explicit poor-signal feedback? A clinical investigator would define the task and endpoints; any AI component would require separate validation. We seek protocol and workflow feedback first, with resources subject to a formal agreement.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:bd",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:bd\",\"id\":\"bd\",\"name\":\"BD\",\"category\":\"Clinical workflow\",\"role\":\"Vascular-access comparator and workflow\",\"sequence\":\"Protocol shaping\",\"sourceIds\":[\"P07\",\"P08\"],\"fact\":\"BD describes SiteRite 9 as a vascular-access ultrasound platform and publishes an external Idea Submission Process with a nonconfidential initial review route.\",\"fit\":\"Potential input on what a new visualization interface must add beyond a purpose-built vascular-access ultrasound workflow.\",\"study\":\"Develop a simulation comparison against an agreed vascular-access ultrasound workflow. Assess anatomy localization, contact deformation, interpretation errors, setup burden and invalid-image recognition before any access-success claim.\",\"deliverable\":\"An intended-use/task statement and a comparator protocol with meaningful failure criteria and clinician-defined endpoints.\",\"gap\":\"Product/integration fit, sponsorship and interest are unverified. BD's initial idea route does not promise confidentiality; detailed submission terms would need review. Existing product capabilities do not validate VASCOUT.\",\"route\":\"Official innovation/idea page; limit any initial discussion to the approved nonconfidential concept.\",\"routeUrl\":\"https://www.bd.com/en-us/about-bd/innovation-at-bd\",\"subject\":\"Research discussion: benchmarking a vascular-visualization interface against current workflow\",\"pitch\":\"VASCOUT is a concept-stage ultrasound-led interface with experimental PA contrast and explicit uncertainty feedback. BD's vascular-access portfolio makes the existing clinical workflow an important comparator. Would the relevant research or innovation team consider a nonconfidential scoping discussion on which visualization limitations are worth measuring? We propose a simulated assessment study using predefined localization, deformation, interpretation-error and workflow endpoints. We are not presenting IV-success results or an integrated BD product. The first goal is an agreed task and benchmark protocol, with any detailed exchange governed by appropriate terms.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:teleflex",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:teleflex\",\"id\":\"teleflex\",\"name\":\"Teleflex / Arrow\",\"category\":\"Clinical workflow\",\"role\":\"Access workflow and contact-interface usability\",\"sequence\":\"Protocol shaping\",\"sourceIds\":[\"P09\",\"P10\"],\"fact\":\"Teleflex publishes Arrow emergency/trauma vascular-access products and an official product inquiry form covering peripheral access and emergency/trauma categories.\",\"fit\":\"Potential clinical/R&D feedback on whether a passive imaging shoe creates useful working space or adds setup and handling burden.\",\"study\":\"Use vascular-access task trainers to compare probe/contact-shoe handling, gloved reach, working-corridor obstruction, setup time and cleaning constraints. No actual patient cannulation or IV/IO treatment choice is proposed at this stage.\",\"deliverable\":\"A human-factors requirements sheet and a simulation protocol for contact-interface benefits and failure cases.\",\"gap\":\"The observed route is a product inquiry, not an announced VASCOUT research program. Research-team routing, sponsorship, compatibility and acceptance are unverified.\",\"route\":\"Official Arrow emergency/trauma inquiry; ask to be routed to the relevant clinical/R&D team.\",\"routeUrl\":\"https://www.teleflex.com/usa/en/product-areas/vascular-access/emergency-trauma-products/trauma-products/request-info.html\",\"subject\":\"Research scoping: passive imaging-interface usability around vascular-access workflows\",\"pitch\":\"VASCOUT proposes a passive contact shoe around an ultrasound-led imaging probe, with an open working corridor and proposed force feedback. Your Arrow access portfolio suggests a useful perspective on whether that interface helps or obstructs the clinical workflow. Could this inquiry be routed to a clinical or R&D team willing to review a task-trainer usability protocol? We would measure gloved reach, contact deformation, working-space obstruction, setup burden and cleaning constraints. This is an unvalidated concept; the immediate request is requirements feedback, not a treatment recommendation or a claim of improved access success.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "vascout:partner:mtec",
+    "collection": "partner_prospects",
+    "payload_json": "{\"record_id\":\"vascout:partner:mtec\",\"id\":\"mtec\",\"name\":\"Medical Technology Enterprise Consortium\",\"category\":\"Defense teaming\",\"role\":\"Teaming and funding-route assessment\",\"sequence\":\"Eligibility check first\",\"sourceIds\":[\"P13\"],\"fact\":\"MTEC publishes military-medical teaming opportunities and membership-based funding participation requirements. Its community includes industry, academia and government.\",\"fit\":\"A possible route to assemble an imaging developer, clinical investigator and simulation team once a coherent research question exists.\",\"study\":\"Map the concept's validation gaps to an appropriate, currently eligible research opportunity and a team with complementary capability. Review a specific call before preparing any application or assuming award eligibility.\",\"deliverable\":\"A partner-role map and a solicitation-specific eligibility/fit assessment; no funding projection.\",\"gap\":\"VASCOUT's organizational readiness, membership, fees, call alignment and award eligibility are unverified. No specific open call was audited; membership does not imply funding or validation.\",\"route\":\"Official membership/teaming page; request guidance on fit and prerequisites before enrollment or proposal work.\",\"routeUrl\":\"https://mtec-sc.org/join\",\"subject\":\"Teaming inquiry: a bench-first vascular-imaging research concept\",\"pitch\":\"VASCOUT is an unvalidated ultrasound-led vascular-imaging concept with an experimental PA extension. The next need is a credible team and comparative protocol, not a claim of field readiness. Could MTEC advise whether its teaming ecosystem is appropriate for combining an imaging-platform developer, a clinical investigator and a military-medical simulation partner? We would first clarify organizational and membership prerequisites, then assess a specific solicitation's technical scope and eligibility. The proposed research would report incremental benefit and failure modes against ultrasound alone; no funding or award fit is assumed.\",\"engagement_status\":\"PROSPECT_UNCONFIRMED\",\"pitch_status\":\"DRAFT_NOT_SENT\",\"fit_status\":\"INFERENCE\",\"study_status\":\"PROPOSED\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "claim-source:ledx:S01",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"claim-source:ledx:S01\",\"from_record_id\":\"vascout:claim-audit:ledx\",\"to_record_id\":\"vascout:source:S01\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "claim-source:depth:S02",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"claim-source:depth:S02\",\"from_record_id\":\"vascout:claim-audit:depth\",\"to_record_id\":\"vascout:source:S02\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "claim-source:skin:S06",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"claim-source:skin:S06\",\"from_record_id\":\"vascout:claim-audit:skin\",\"to_record_id\":\"vascout:source:S06\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "claim-source:autonomy:G01",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"claim-source:autonomy:G01\",\"from_record_id\":\"vascout:claim-audit:autonomy\",\"to_record_id\":\"vascout:source:G01\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "claim-source:bom:L01",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"claim-source:bom:L01\",\"from_record_id\":\"vascout:claim-audit:bom\",\"to_record_id\":\"vascout:source:L01\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "claim-source:novelty:S05",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"claim-source:novelty:S05\",\"from_record_id\":\"vascout:claim-audit:novelty\",\"to_record_id\":\"vascout:source:S05\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:verasonics:P01",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:verasonics:P01\",\"from_record_id\":\"vascout:partner:verasonics\",\"to_record_id\":\"vascout:source:P01\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:verasonics:P02",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:verasonics:P02\",\"from_record_id\":\"vascout:partner:verasonics\",\"to_record_id\":\"vascout:source:P02\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:cyberdyne:P03",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:cyberdyne:P03\",\"from_record_id\":\"vascout:partner:cyberdyne\",\"to_record_id\":\"vascout:source:P03\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:cyberdyne:P04",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:cyberdyne:P04\",\"from_record_id\":\"vascout:partner:cyberdyne\",\"to_record_id\":\"vascout:source:P04\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:michigan:P14",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:michigan:P14\",\"from_record_id\":\"vascout:partner:michigan\",\"to_record_id\":\"vascout:source:P14\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:usaisr:P11",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:usaisr:P11\",\"from_record_id\":\"vascout:partner:usaisr\",\"to_record_id\":\"vascout:source:P11\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:usaisr:P12",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:usaisr:P12\",\"from_record_id\":\"vascout:partner:usaisr\",\"to_record_id\":\"vascout:source:P12\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:sonosite:P05",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:sonosite:P05\",\"from_record_id\":\"vascout:partner:sonosite\",\"to_record_id\":\"vascout:source:P05\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:sonosite:P06",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:sonosite:P06\",\"from_record_id\":\"vascout:partner:sonosite\",\"to_record_id\":\"vascout:source:P06\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:bd:P07",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:bd:P07\",\"from_record_id\":\"vascout:partner:bd\",\"to_record_id\":\"vascout:source:P07\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:bd:P08",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:bd:P08\",\"from_record_id\":\"vascout:partner:bd\",\"to_record_id\":\"vascout:source:P08\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:teleflex:P09",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:teleflex:P09\",\"from_record_id\":\"vascout:partner:teleflex\",\"to_record_id\":\"vascout:source:P09\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:teleflex:P10",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:teleflex:P10\",\"from_record_id\":\"vascout:partner:teleflex\",\"to_record_id\":\"vascout:source:P10\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  },
+  {
+    "record_id": "partner-source:mtec:P13",
+    "collection": "relationships",
+    "payload_json": "{\"relationship_id\":\"partner-source:mtec:P13\",\"from_record_id\":\"vascout:partner:mtec\",\"to_record_id\":\"vascout:source:P13\",\"relationship_type\":\"CITES_SOURCE\",\"relationship_basis\":\"EXPLICIT_SOURCE_FIELD\",\"origin_app_id\":\"7554d8e4-adad-42d3-a2c8-a4e77af46795\",\"origin_revision\":10,\"origin_url\":\"https://charm.ing/bloodwave/vascout\",\"content_snapshot_date\":\"2026-10-20\",\"exported_at\":\"2026-11-03\"}"
+  }
+]

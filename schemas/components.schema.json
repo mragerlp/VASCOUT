@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mragerlp/VASCOUT/blob/main/schemas/components.schema.json",
+  "title": "VASCOUT components",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "color",
+      "content_snapshot_date",
+      "exported_at",
+      "id",
+      "interface",
+      "maturity",
+      "name",
+      "number",
+      "origin_app_id",
+      "origin_revision",
+      "origin_url",
+      "purpose",
+      "record_id",
+      "record_kind",
+      "short",
+      "test"
+    ],
+    "properties": {
+      "record_id": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "number": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "short": {
+        "type": "string"
+      },
+      "color": {
+        "type": "string"
+      },
+      "purpose": {
+        "type": "string"
+      },
+      "interface": {
+        "type": "string"
+      },
+      "maturity": {
+        "type": "string"
+      },
+      "test": {
+        "type": "string"
+      },
+      "record_kind": {
+        "type": "string"
+      },
+      "origin_app_id": {
+        "type": "string"
+      },
+      "origin_revision": {
+        "type": "integer"
+      },
+      "origin_url": {
+        "type": "string"
+      },
+      "content_snapshot_date": {
+        "type": "string"
+      },
+      "exported_at": {
+        "type": "string"
+      }
+    }
+  }
+}

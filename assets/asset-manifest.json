@@ -1,0 +1,130 @@
+{
+  "source_app_id": "7554d8e4-adad-42d3-a2c8-a4e77af46795",
+  "source_app_revision": 10,
+  "source_app_url": "https://charm.ing/bloodwave/vascout",
+  "content_snapshot_date": "2026-10-20",
+  "inventory_verified_date": "2026-11-03",
+  "boundary": "Research concept; deck contents are proposals and source summaries, not patient-use validation.",
+  "retrieval_method": "Documented Charming inventory; current PDF bytes exported from browser-held UI downloads and materialized with identity metadata",
+  "assets": [
+    {
+      "key": "VASCOUT-Pitch-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 722717,
+      "role": "historical-main",
+      "local_path": null,
+      "sha256": null,
+      "retrieval_status": "SUPERSEDED_NOT_INCLUDED",
+      "note": "Historical main-deck revision listed for traceability; current v2 is included instead."
+    },
+    {
+      "key": "VASCOUT-Pitch-Deck-v1-20261020-r1.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 731479,
+      "role": "historical-main",
+      "local_path": null,
+      "sha256": null,
+      "retrieval_status": "SUPERSEDED_NOT_INCLUDED",
+      "note": "Historical main-deck revision listed for traceability; current v2 is included instead."
+    },
+    {
+      "key": "VASCOUT-Pitch-Deck-v2-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 768492,
+      "role": "current-main",
+      "local_path": "assets/decks/VASCOUT-Pitch-Deck-v2-20261020.pdf",
+      "sha256": "397ff3fa93bee29fae2b3f3c083fdedb0cd42674f17dabf560005f7872b6c649",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 23
+    },
+    {
+      "key": "VASCOUT-michigan-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 736561,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-michigan-Research-Deck-v1-20261020.pdf",
+      "sha256": "cf756ce387e1224a208068a7233d2f8fbca1a8abc0686594412f0cb74ca15d04",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-mtec-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 736318,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-mtec-Research-Deck-v1-20261020.pdf",
+      "sha256": "13dd491c6fa3768bbe122de8e8148d2709a2e68ff5b379f72b20988f811b7e53",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-cyberdyne-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 737042,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-cyberdyne-Research-Deck-v1-20261020.pdf",
+      "sha256": "197e2523a74de7549f33b0c36f22564846c6c7d635aa043003c46c91f9230a0f",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-sonosite-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 737113,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-sonosite-Research-Deck-v1-20261020.pdf",
+      "sha256": "fb0781ba154c38221461773906b4d2568bce78fbddf2b0a904a7f53734726164",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-usaisr-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 737128,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-usaisr-Research-Deck-v1-20261020.pdf",
+      "sha256": "c927d38e23c7e3e27f25ae58784eca07e46fb0d9d9e3e2a649e7ba13a324fb1b",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-teleflex-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 737282,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-teleflex-Research-Deck-v1-20261020.pdf",
+      "sha256": "03c1bfce894c63ac356e7ba74eb7e4becc6ccddda96e5c8d482e752664fdcc3d",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-verasonics-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 736696,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-verasonics-Research-Deck-v1-20261020.pdf",
+      "sha256": "6f3be1d81debcf5baca7c2041354de7dbb0a81ce720c8ba91c9782854870cee5",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    },
+    {
+      "key": "VASCOUT-bd-Research-Deck-v1-20261020.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 737215,
+      "role": "partner",
+      "local_path": "assets/decks/VASCOUT-bd-Research-Deck-v1-20261020.pdf",
+      "sha256": "3f95ed791a854a5764ab447691a7748161230ad3b23dee0ccd2a4162ba39be2d",
+      "retrieval_status": "DOWNLOADED_VERIFIED",
+      "note": "Actual PDF from the existing app download control, exported through the browser. Signed URLs and app tokens excluded.",
+      "page_count": 14
+    }
+  ]
+}

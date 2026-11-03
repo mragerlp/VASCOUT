@@ -1,0 +1,32 @@
+{
+  "origin_app_id": "7554d8e4-adad-42d3-a2c8-a4e77af46795",
+  "origin_revision": 10,
+  "origin_url": "https://charm.ing/bloodwave/vascout",
+  "content_snapshot_date": "2026-10-20",
+  "exported_at": "2026-11-03",
+  "static_record_count": 66,
+  "table_counts": {
+    "sources": 30,
+    "claim_audits": 6,
+    "requirements": 11,
+    "components": 5,
+    "research_questions": 6,
+    "partner_prospects": 8,
+    "relationships": 20
+  },
+  "canonical_envelope_row_count": 86,
+  "canonical_envelope_columns": [
+    "record_id",
+    "collection",
+    "payload_json"
+  ],
+  "source_read_is_independent_publication_verification": false,
+  "clinical_validation_status": "UNVERIFIED",
+  "partner_engagement_status": "UNCONFIRMED",
+  "dynamic_review_notes": "Excluded from repository export; not part of the static 66-record corpus",
+  "source_hashes": {
+    "src/charming/server.js": "92610ecea8b3f0fcc3a81fdf40da58b3e5b4506156a32c3a0cf6521213dbf497",
+    "src/charming/styles.css": "482c1e846a343e351f4b4f0d5b7005157f6f348e68c503f79105eaecfebe1ac8",
+    "src/charming/ui.js": "23e4e33c60ccfd5b7019bf87d68b8c04a013ba84016d9e56983919958ad7a1db"
+  }
+}

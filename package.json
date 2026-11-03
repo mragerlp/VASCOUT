@@ -1,0 +1,12 @@
+{
+  "name": "vascout-research-dossier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "VASCOUT research concept source, evidence data, presentation assets, and Foundry import package",
+  "scripts": {
+    "export:data": "python3 scripts/export-data.py",
+    "validate": "python3 scripts/validate-data.py && node --check src/charming/server.js && node --check src/charming/ui.js && node --check preview/local-bridge.js",
+    "preview": "python3 -m http.server 8000"
+  }
+}

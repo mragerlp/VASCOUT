@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mragerlp/VASCOUT/blob/main/schemas/sources.schema.json",
+  "title": "VASCOUT sources",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "content_snapshot_date",
+      "exported_at",
+      "id",
+      "origin_app_id",
+      "origin_revision",
+      "origin_url",
+      "original_status",
+      "record_id",
+      "scope",
+      "status_semantics",
+      "title",
+      "url"
+    ],
+    "properties": {
+      "record_id": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "year": {
+        "type": "string"
+      },
+      "url": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "setting": {
+        "type": "string"
+      },
+      "modality": {
+        "type": "string"
+      },
+      "quote": {
+        "type": "string"
+      },
+      "supports": {
+        "type": "string"
+      },
+      "limits": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "scope": {
+        "type": "string"
+      },
+      "original_status": {
+        "type": "string"
+      },
+      "status_semantics": {
+        "type": "string"
+      },
+      "origin_app_id": {
+        "type": "string"
+      },
+      "origin_revision": {
+        "type": "integer"
+      },
+      "origin_url": {
+        "type": "string"
+      },
+      "content_snapshot_date": {
+        "type": "string"
+      },
+      "exported_at": {
+        "type": "string"
+      },
+      "access": {
+        "type": "string"
+      },
+      "limit": {
+        "type": "string"
+      }
+    }
+  }
+}

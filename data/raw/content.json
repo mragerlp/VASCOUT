@@ -1,0 +1,426 @@
+{
+  "components": [
+    {
+      "id": "housing",
+      "number": "01",
+      "name": "Probe enclosure",
+      "short": "Housing",
+      "color": "#414d55",
+      "purpose": "A deliberate grip for low-contact-force imaging, with two controls and a visible status strip.",
+      "interface": "Illustrative envelope: 150 × 56 × 34 mm. Tether routes to a separate acquisition unit.",
+      "maturity": "Concept geometry",
+      "test": "Gloved reach, cleaning, balance and contact-force usability studies."
+    },
+    {
+      "id": "sensor",
+      "number": "02",
+      "name": "Ultrasound cartridge",
+      "short": "Acoustic sensor",
+      "color": "#80b5bc",
+      "purpose": "The primary structural imaging channel. Begin with a conventional linear-array module.",
+      "interface": "Candidate 7–15 MHz band; acoustic coupling, receive chain and synchronized acquisition.",
+      "maturity": "Bench component selection",
+      "test": "Point-spread function, vessel localization, near-field performance and deformation."
+    },
+    {
+      "id": "optics",
+      "number": "03",
+      "name": "Photoacoustic rails",
+      "short": "Optical rails",
+      "color": "#C8742B",
+      "purpose": "Experimental hemoglobin contrast, registered with ultrasound rather than used as an autonomous diagnosis.",
+      "interface": "Tethered laboratory source first. Evaluate 850 nm LEDs and a 1064 nm pulsed-source alternative.",
+      "maturity": "Experimental extension",
+      "test": "Incremental benefit over US alone, exposure, heating, pigmentation effects and motion."
+    },
+    {
+      "id": "coupling",
+      "number": "04",
+      "name": "Passive contact shoe",
+      "short": "Contact shoe",
+      "color": "#9eb5a4",
+      "purpose": "Replaceable interface with an open working corridor and proposed contact-force sensing.",
+      "interface": "Acoustic and optical transmission; no active suction in the initial design.",
+      "maturity": "Interface research",
+      "test": "Transmission loss, air gaps, vessel compression, cleaning and sterility requirements."
+    },
+    {
+      "id": "electronics",
+      "number": "05",
+      "name": "Acquisition & monitoring",
+      "short": "Electronics",
+      "color": "#718e76",
+      "purpose": "Coordinate acquisition and monitor contact and temperature, with a proposed independent optical interlock.",
+      "interface": "Separate bench source/acquisition unit; the complete system is not contained in this handle.",
+      "maturity": "System architecture",
+      "test": "Synchronization, registration, failure states, latency, power and thermal budgets."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "envelope",
+      "item": "Probe envelope",
+      "target": "150 × 56 × 34 mm",
+      "meaning": "Illustrative packaging choice",
+      "verify": "Ergonomics and integration study"
+    },
+    {
+      "id": "band",
+      "item": "Ultrasound band",
+      "target": "7–15 MHz candidate",
+      "meaning": "Vendor hardware selection pending",
+      "verify": "Bandwidth and point-spread-function measurements"
+    },
+    {
+      "id": "illumination",
+      "item": "Photoacoustic source",
+      "target": "850 nm LED / 1064 nm pulsed source",
+      "meaning": "Alternative laboratory configurations",
+      "verify": "Signal, exposure, thermal and acquisition budgets"
+    },
+    {
+      "id": "depth",
+      "item": "Vessel-depth experiment",
+      "target": "2 / 5 / 10 / 15 mm",
+      "meaning": "Phantom test positions, not operating-depth claims",
+      "verify": "Detection rate and localization error at every depth"
+    },
+    {
+      "id": "diameter",
+      "item": "Vessel-size experiment",
+      "target": "1 / 2 / 4 / 6 mm",
+      "meaning": "Phantom sizes, not clinical access thresholds",
+      "verify": "Segmentation and diameter error with confidence intervals"
+    },
+    {
+      "id": "volume",
+      "item": "3D acquisition",
+      "target": "Tracked sweep or controlled bench scan",
+      "meaning": "No real-time volumetric performance claim",
+      "verify": "Registration error, motion sensitivity and coverage"
+    },
+    {
+      "id": "benefit",
+      "item": "Photoacoustic benefit",
+      "target": "US alone versus US + PA",
+      "meaning": "Same task and ground truth",
+      "verify": "Predefined incremental benefit, failures and added time"
+    },
+    {
+      "id": "contact",
+      "item": "Contact interface",
+      "target": "Passive shoe + force sensor",
+      "meaning": "No suction actuation",
+      "verify": "Coupling, deformation, cleaning and sterility research"
+    },
+    {
+      "id": "fragments",
+      "item": "Foreign-body study",
+      "target": "Multiple materials, depths and orientations",
+      "meaning": "Negative imaging cannot exclude fragments",
+      "verify": "Sensitivity, specificity and localization error"
+    },
+    {
+      "id": "field",
+      "item": "Field suitability",
+      "target": "Bench → simulated use",
+      "meaning": "No field-ready rating",
+      "verify": "Gloves, motion, lighting, cleaning and usability"
+    },
+    {
+      "id": "unknown",
+      "item": "Missing or invalid signal",
+      "target": "Show UNKNOWN",
+      "meaning": "Never infer a safe vessel from absent data",
+      "verify": "Dropout, corruption, calibration and motion cases"
+    }
+  ],
+  "claims": [
+    {
+      "id": "ledx",
+      "claim": "LEDX is NIR tomography",
+      "finding": "LEDX uses visible side-transillumination. NIR camera imaging and PA tomography are different methods.",
+      "status": "CONFIRMED",
+      "source": "S01"
+    },
+    {
+      "id": "depth",
+      "claim": "15 mm or 25 mm depth is already proven for this design",
+      "finding": "Published performance is specific to each research setup. Focal length and proposed test depths are not demonstrated VASCOUT operating depths.",
+      "status": "UNVERIFIED",
+      "source": "S02"
+    },
+    {
+      "id": "skin",
+      "claim": "Multispectral optics remove skin-colour bias",
+      "finding": "Bias remains a research problem; diverse optical conditions and skin pigmentation require explicit evaluation.",
+      "status": "UNVERIFIED",
+      "source": "S06"
+    },
+    {
+      "id": "autonomy",
+      "claim": "The Gemini fusion code is production-ready",
+      "finding": "Static and scalar review found six failure cases, including depth-only needle containment, empty candidate selection and missing-signal treatment directives. The code is excluded.",
+      "status": "UNVERIFIED",
+      "source": "G01"
+    },
+    {
+      "id": "bom",
+      "claim": "The cited AFE chips each have 64/128 channels",
+      "finding": "AFE5832LP has 32 receive inputs; MAX2082 has eight transceiver channels. A complete channel architecture is unresolved.",
+      "status": "CONFIRMED",
+      "source": "L01"
+    },
+    {
+      "id": "novelty",
+      "claim": "The hybrid concept is unprecedented or cleared",
+      "finding": "PA/US systems and ring sensors have prior art. Patent novelty, regulatory pathway and VASCOUT safety/effectiveness have not been established.",
+      "status": "UNVERIFIED",
+      "source": "S05"
+    }
+  ],
+  "questions": [
+    {
+      "id": "imaging",
+      "number": "01",
+      "title": "Does the added modality help?",
+      "stage": "Bench imaging",
+      "prompt": "Compare ultrasound alone with registered US + PA using the same task and ground truth.",
+      "gate": "Measure localization, registration, failed acquisitions and additional time. Predefine what benefit would justify the extra system."
+    },
+    {
+      "id": "coupling",
+      "number": "02",
+      "title": "Can contact preserve the anatomy?",
+      "stage": "Calibrated phantoms",
+      "prompt": "Evaluate the passive shoe, force sensing, air gaps and motion across compliant vessel phantoms.",
+      "gate": "Record vessel deformation and coupling loss. Establish materials, cleaning and sterility requirements."
+    },
+    {
+      "id": "pigmentation",
+      "number": "03",
+      "title": "Where does optical contrast fail?",
+      "stage": "Bias & robustness",
+      "prompt": "Vary attenuation, pigmentation, depth, hematoma-like absorbers and illumination geometry.",
+      "gate": "Report performance by condition. Include UNKNOWN states and uncertainty instead of a universal correction claim."
+    },
+    {
+      "id": "foreign-body",
+      "number": "04",
+      "title": "Which objects can be localized?",
+      "stage": "Separate phantom study",
+      "prompt": "Study metal, glass and other relevant materials across sizes, depths and orientations.",
+      "gate": "Report sensitivity, specificity and localization error. No negative result may imply all fragments have been excluded."
+    },
+    {
+      "id": "usability",
+      "number": "05",
+      "title": "Can a trained user interpret it?",
+      "stage": "Simulated use",
+      "prompt": "Review gloved controls, attention demands, misleading overlays, motion and low-perfusion use cases with clinicians.",
+      "gate": "Measure task completion and use errors. Human-factors review precedes claims about field benefit."
+    },
+    {
+      "id": "clinical-pathway",
+      "number": "06",
+      "title": "What evidence would permit human use?",
+      "stage": "Expert review → approved studies",
+      "prompt": "Define intended use with clinical, regulatory and safety experts before appropriately approved human studies.",
+      "gate": "Clinical safety, effectiveness, legal pathway and field suitability remain unverified. Reviewed below means discussed, not clinically validated."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Veinlite LEDX — directions for use",
+      "year": "Current DFU",
+      "url": "https://dfu.veinlite.com/dfu/ledx/index.html",
+      "setting": "Manufacturer",
+      "modality": "Optical",
+      "quote": "These plastic covers are not sterile.",
+      "supports": "Visible side-transillumination; 24 orange and 8 red LEDs. A useful baseline for superficial vessel visibility.",
+      "limits": "Not NIR camera projection or PA tomography. Manufacturer specifications are not comparative clinical proof. Direct DFU read; exact wavelengths unverified.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S02",
+      "title": "Photoacoustic vector tomography for deep haemodynamic imaging",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38036619/",
+      "setting": "Healthy human",
+      "modality": "Photoacoustic",
+      "quote": "an axial resolution of 125 μm and a lateral resolution of 150 μm.",
+      "supports": "Healthy hand/arm vascular flow measurements deeper than 5 mm in the reported system.",
+      "limits": "Linear array and fiber delivery, not this probe. The 15 mm focal length is not proven 15 mm human imaging depth. Abstract/figures read; full-text access incomplete.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S03",
+      "title": "Photoacoustic imaging of human vasculature using LED versus laser illumination",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33435375/",
+      "setting": "Healthy human",
+      "modality": "Photoacoustic",
+      "quote": "tradeoffs between portability, cost, optical energy and frame rate",
+      "supports": "850 nm LED-PAI is published prior work, including phantom and healthy wrist/forearm comparisons.",
+      "limits": "Mechanically scanned, water-coupled research acquisition is not handheld field validation. No proof of the proposed 120 Hz integrated pipeline. Abstract verified; direct publisher access limited.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S04",
+      "title": "Monitoring peripheral hemodynamic response to changes in blood pressure via photoacoustic imaging",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8918860/",
+      "setting": "Clinical",
+      "modality": "Photoacoustic",
+      "quote": "20 HD patients and 11 healthy subjects",
+      "supports": "Peripheral perfusion observations around dialysis and exercise motivate further research.",
+      "limits": "Not a validated dehydration meter or hemorrhagic-shock classifier. Primary-source retrieval by research reviewer; full article not independently reread by root.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S05",
+      "title": "Thin ceramic PZT dual- and multi-frequency pMUT arrays for photoacoustic imaging",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9668999/",
+      "setting": "Phantom",
+      "modality": "Photoacoustic",
+      "quote": "only 2D photoacoustic images can be reconstructed without depth scanning.",
+      "supports": "Related ring and square sensor-array prior art tested with pencil leads in agar.",
+      "limits": "Not a real-time human vascular access device. Novelty and freedom to operate remain unverified. Indexed primary text reviewed; direct PMC access challenged.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S06",
+      "title": "The confounding effects of skin colour in photoacoustic imaging",
+      "year": "2026",
+      "url": "https://www.nature.com/articles/s41467-026-74380-7",
+      "setting": "Healthy human",
+      "modality": "Photoacoustic",
+      "quote": "no generalisable bias correction has been demonstrated.",
+      "supports": "Study of 42 healthy participants covering Fitzpatrick I–VI and vitiligo; optical and acoustic confounding affects measurements.",
+      "limits": "No demonstrated skin-tone invariance for VASCOUT. Direct article read; published 17 June 2026.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S07",
+      "title": "TCCC Guidelines — vascular access claim audit",
+      "year": "2026",
+      "url": "https://learning-media.allogy.com/api/v1/pdf/18ccfdfc-a076-47e9-8a34-376efdd81b43/contents",
+      "setting": "Guideline",
+      "modality": "Clinical practice",
+      "quote": "Circulation",
+      "supports": "The 1 May 2026 guideline provides the clinical context for the vascular-access claim audit.",
+      "limits": "Its access section does not specify Gemini’s six-second classifier or 1.2 mm vessel threshold. Direct PDF read. This app does not give treatment instructions.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S08",
+      "title": "Bedside ultrasound for detection of soft tissue foreign bodies: a cadaveric study",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18930374/",
+      "setting": "Cadaver",
+      "modality": "Ultrasound",
+      "quote": "Inter-observer reliability was poor.",
+      "supports": "In this study: six cadavers, six physicians, 900 examinations; sensitivity 52.6%, specificity 47.2%.",
+      "limits": "Small objects ≤5 mm at depths ≤3 cm. Results are setting-specific; negative imaging cannot universally exclude fragments. Abstract directly read.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S09",
+      "title": "Ultrasound evaluation of soft-tissue foreign bodies by US Army medics",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30283201/",
+      "setting": "Simulation",
+      "modality": "Ultrasound",
+      "quote": "sensitivity and specificity of 73% and 78%",
+      "supports": "After two hours of training, 28 medics studied wooden objects in chicken-thigh models.",
+      "limits": "Simulated-use evidence, not injured-human or battlefield validation. Primary abstract and indexed article reviewed; direct PMC retrieval limited.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S10a",
+      "title": "Ultrasonography-guided peripheral intravenous access versus traditional approaches",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16271677/",
+      "setting": "Clinical",
+      "modality": "Ultrasound",
+      "quote": "Success rate was greater for the ultrasonographic group (97%) versus control (33%)",
+      "supports": "Reported benefit in 60 difficult-access patients at two hospitals.",
+      "limits": "Odd/even-day allocation and two US operators; not concealed randomized assignment. Read alongside S10b. Indexed primary abstract; full article unverified.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S10b",
+      "title": "Ultrasonographically guided peripheral intravenous cannulation: a randomized trial",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18824276/",
+      "setting": "Clinical",
+      "modality": "Ultrasound",
+      "quote": "Superiority of ultrasonographically guided peripheral intravenous cannulation is not supported by this study.",
+      "supports": "A 59-patient ED trial did not demonstrate improvement in attempts, time or satisfaction.",
+      "limits": "Conflicting evidence matters; results depend on workflow and setting. Indexed primary abstract; full article unverified.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S11",
+      "title": "FDA: Imagio Breast Imaging System — P200003",
+      "year": "2021",
+      "url": "https://www.fda.gov/medical-devices/recently-approved-devices/imagior-breast-imaging-system-p200003",
+      "setting": "Regulator",
+      "modality": "Hybrid",
+      "quote": "uses both optoacoustic (OA) and ultrasound (US) to image breast tissues",
+      "supports": "An approved OA/US product exists for a specified breast-imaging indication.",
+      "limits": "Unrelated indication: no VASCOUT clearance, safety/effectiveness or predetermined legal pathway follows. Direct FDA overview read.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "S12",
+      "title": "A device for improving the visual clarity and dimension of veins",
+      "year": "2018",
+      "url": "https://ntu-repository.worktribe.com/output/681739/a-device-for-improving-the-visual-clarity-and-dimension-of-veins",
+      "setting": "Healthy human",
+      "modality": "Contact interface",
+      "quote": "20 healthy volunteers",
+      "supports": "Related vacuum-device research used a healthy-volunteer crossover study.",
+      "limits": "Not shock patients; does not establish the Gemini suction range or outcome. Indexed abstract reviewed; repository/PDF fetch gaps. Suction excluded from initial concept.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "L01",
+      "title": "TI AFE5832LP — ultrasound analog front end",
+      "year": "Manufacturer",
+      "url": "https://www.ti.com/product/AFE5832LP",
+      "setting": "Manufacturer",
+      "modality": "Electronics",
+      "quote": "The VCA die has 32 channels",
+      "supports": "32 receive inputs with 16 multiplexed ADC channels.",
+      "limits": "Not a single 64/128-channel transceiver. Complete transmit/receive architecture, bandwidth and power budget are unresolved. Direct manufacturer page read.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "L02",
+      "title": "Analog Devices MAX2082 — octal ultrasound transceiver",
+      "year": "Manufacturer",
+      "url": "https://www.analog.com/en/products/max2082.html",
+      "setting": "Manufacturer",
+      "modality": "Electronics",
+      "quote": "fully integrated octal ultrasound transceiver",
+      "supports": "Eight channels per device, with integrated transmit and receive functions.",
+      "limits": "Does not establish feasibility of the proposed 128-channel dual-band C-ring. Direct manufacturer page read.",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "G01",
+      "title": "User-supplied Gemini concepts — audited research inputs",
+      "year": "2026",
+      "url": null,
+      "setting": "Concept material",
+      "modality": "Hybrid",
+      "quote": "production-ready",
+      "supports": "Motivating ideas: visible vascular mapping, field access, LED-PAI and a possible C-ring geometry.",
+      "limits": "Two supplied PDFs and three text attachments are proposals, not studies. Six latest-code failure cases were reproduced using independent arithmetic; no supplied code was executed. No autonomous diagnosis or treatment logic adopted.",
+      "status": "THIRD-PARTY"
+    }
+  ]
+}

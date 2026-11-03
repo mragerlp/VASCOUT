@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mragerlp/VASCOUT/blob/main/schemas/partner_prospects.schema.json",
+  "title": "VASCOUT partner_prospects",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "category",
+      "content_snapshot_date",
+      "deliverable",
+      "engagement_status",
+      "exported_at",
+      "fact",
+      "fit",
+      "fit_status",
+      "gap",
+      "id",
+      "name",
+      "origin_app_id",
+      "origin_revision",
+      "origin_url",
+      "pitch",
+      "pitch_status",
+      "record_id",
+      "role",
+      "route",
+      "routeUrl",
+      "sequence",
+      "sourceIds",
+      "study",
+      "study_status",
+      "subject"
+    ],
+    "properties": {
+      "record_id": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "sequence": {
+        "type": "string"
+      },
+      "sourceIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "fact": {
+        "type": "string"
+      },
+      "fit": {
+        "type": "string"
+      },
+      "study": {
+        "type": "string"
+      },
+      "deliverable": {
+        "type": "string"
+      },
+      "gap": {
+        "type": "string"
+      },
+      "route": {
+        "type": "string"
+      },
+      "routeUrl": {
+        "type": "string"
+      },
+      "subject": {
+        "type": "string"
+      },
+      "pitch": {
+        "type": "string"
+      },
+      "engagement_status": {
+        "type": "string"
+      },
+      "pitch_status": {
+        "type": "string"
+      },
+      "fit_status": {
+        "type": "string"
+      },
+      "study_status": {
+        "type": "string"
+      },
+      "origin_app_id": {
+        "type": "string"
+      },
+      "origin_revision": {
+        "type": "integer"
+      },
+      "origin_url": {
+        "type": "string"
+      },
+      "content_snapshot_date": {
+        "type": "string"
+      },
+      "exported_at": {
+        "type": "string"
+      }
+    }
+  }
+}

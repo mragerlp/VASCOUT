@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mragerlp/VASCOUT/blob/main/schemas/relationships.schema.json",
+  "title": "VASCOUT relationships",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "content_snapshot_date",
+      "exported_at",
+      "from_record_id",
+      "origin_app_id",
+      "origin_revision",
+      "origin_url",
+      "relationship_basis",
+      "relationship_id",
+      "relationship_type",
+      "to_record_id"
+    ],
+    "properties": {
+      "relationship_id": {
+        "type": "string"
+      },
+      "from_record_id": {
+        "type": "string"
+      },
+      "to_record_id": {
+        "type": "string"
+      },
+      "relationship_type": {
+        "type": "string"
+      },
+      "relationship_basis": {
+        "type": "string"
+      },
+      "origin_app_id": {
+        "type": "string"
+      },
+      "origin_revision": {
+        "type": "integer"
+      },
+      "origin_url": {
+        "type": "string"
+      },
+      "content_snapshot_date": {
+        "type": "string"
+      },
+      "exported_at": {
+        "type": "string"
+      }
+    }
+  }
+}
