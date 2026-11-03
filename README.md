@@ -4,6 +4,8 @@ VASCOUT is a vascular-imaging **research concept**: an ultrasound-led probe with
 
 This repository preserves the [VASCOUT research dossier](https://charm.ing/bloodwave/vascout), its source code, structured evidence records, proposed requirements, partner research prospects, and available presentation assets. It supplies a reproducible data package for the [VASCOUT Foundry project](https://cavelux.usw-22.palantirfoundry.com/workspace/compass/view/ri.compass.main.folder.3447c592-cfe5-408a-b072-da9a2c3406f5).
 
+The revision-10 package was [published on GitHub](https://github.com/mragerlp/VASCOUT/commit/cfc32968c1b5c2317edc66b0957cbad866e5f919) on 3 November 2026.
+
 **Research concept · illustrative · not for patient use.** No measured VASCOUT performance, clinical safety or effectiveness, field suitability, patent novelty, regulatory clearance, or partner commitment is established. The 3D geometry, vessel paths, and workflow animation are synthetic illustrations.
 
 ## Contents

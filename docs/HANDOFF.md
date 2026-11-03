@@ -41,4 +41,4 @@ Branch identifiers:
 
 ## GitHub publication
 
-The handoff archive was prepared for publication to [mragerlp/VASCOUT](https://github.com/mragerlp/VASCOUT).
+On 3 November 2026 the complete package was published to `main` in [mragerlp/VASCOUT](https://github.com/mragerlp/VASCOUT). GitHub listed 55 files in the [initial publication commit](https://github.com/mragerlp/VASCOUT/commit/cfc32968c1b5c2317edc66b0957cbad866e5f919), including all nine PDFs.
