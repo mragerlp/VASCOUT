@@ -72,9 +72,11 @@ Stop the development server, then inspect the built website:
 npm run web:preview
 ```
 
-Open the local URL printed by the server. The pinned `cf` tool builds the Workers Static Assets package under `web/.cloudflare/output/v0/`. Its static files are in `workers/default/assets/`. The build checks the archived source copies, all 14 data files, and the nine PDF hashes. Cloudflare publication remains a separate release step.
+Open the local URL printed by the server. The pinned `cf` tool builds the Workers Static Assets package under `web/.cloudflare/output/v0/`. Its static files are in `workers/default/assets/`. The build checks the archived source copies, all 14 data files, and the nine PDF hashes.
 
 ## Publish to workers.dev
+
+The archived website was published on 4 November 2026 at [vascout-research-dossier.zerilloj17.workers.dev](https://vascout-research-dossier.zerilloj17.workers.dev). The initial release used commit `a69945b6cec3d396dfcfc2139b79557969d46e87` and Cloudflare Worker version `04f3c092-89d1-4c14-8165-64e8b7df9141`. HTTPS verification matched all 28 public files to the built assets, including all 14 data files and nine PDFs.
 
 Use an authenticated Cloudflare `cf` profile with Workers write access. For initial sign-in, run `npx cf auth login` from `web/` and complete the browser authorization. Set `CLOUDFLARE_ACCOUNT_ID` in the deployment environment when selecting a specific account.
 
