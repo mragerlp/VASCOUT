@@ -20,6 +20,7 @@ The revision-10 package was [published on GitHub](https://github.com/mragerlp/VA
 | `assets/` | Asset inventory and retrieved PDF decks with content hashes |
 | `docs/` | Data dictionary, evidence interpretation, Foundry mapping, and source/asset provenance |
 | `preview/` | Local preview using the archived UI and a clearly labeled browser-local notes adapter |
+| `web/` | Cloudflare build of the archived dossier with browser-local notes |
 | `scripts/` | Literal-only extraction and data-integrity validation |
 
 ## Data snapshot
@@ -51,6 +52,27 @@ npm run preview -- --bind 127.0.0.1
 ```
 
 Open `http://127.0.0.1:8000/preview/` to inspect the archived UI. Preview discussion notes stay in that browser's local storage and do not sync to Charming or Foundry. The faithful source still expects Charming's bridge when hosted there; the preview adapter is a separate file.
+
+## Website build
+
+The website currently presents the archived dossier and its existing illustrative animation. The proposed motion redesign remains future work. Notes stay in the browser's local storage.
+
+From the repository root, use Node.js 22.23 or later 22.x, npm, and Python 3 available as `python3`:
+
+```sh
+npm ci --prefix web
+npm run validate
+npm run web:build
+npm run web:dev
+```
+
+Stop the development server, then inspect the built website:
+
+```sh
+npm run web:preview
+```
+
+Open the local URL printed by the server. The pinned `cf` tool builds the Workers Static Assets package under `web/.cloudflare/output/v0/`. Its static files are in `workers/default/assets/`. The build checks the archived source copies, all 14 data files, and the nine PDF hashes. Cloudflare publication remains a separate release step.
 
 ## Foundry
 

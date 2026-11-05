@@ -7,6 +7,9 @@
   "scripts": {
     "export:data": "python3 scripts/export-data.py",
     "validate": "python3 scripts/validate-data.py && node --check src/charming/server.js && node --check src/charming/ui.js && node --check preview/local-bridge.js",
-    "preview": "python3 -m http.server 8000"
+    "preview": "python3 -m http.server 8000",
+    "web:dev": "cd web && npm run dev",
+    "web:build": "cd web && npm run build",
+    "web:preview": "cd web && npm run preview"
   }
 }
