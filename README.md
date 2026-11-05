@@ -57,7 +57,7 @@ Open `http://127.0.0.1:8000/preview/` to inspect the archived UI. Preview discus
 
 The website now provides an Enter screen, a scroll-controlled assembled/exploded probe, all five component explanations, proposed requirements, and a four-stage synthetic on-body illustration with a tethered acquisition unit. Scroll backward to reverse the sequence, or use the chapter links and demo stage buttons. Sources and nine draft PDF decks remain available below the experience. Reduced-motion preferences use discrete scene states; browsers without WebGL receive a static illustration and readable research content.
 
-This redesign is a local review candidate on `feature/scroll-showcase`. The published `workers.dev` release described below still serves the archived dossier. The separate archived preview retains browser-local notes; the scroll showcase does not provide a discussion-notes editor.
+The scroll showcase was published on 5 November 2026 from `feature/scroll-showcase`, source commit `fc192de730908a5a3e198862bffcbdeb5a6833ad`. The separate archived preview retains browser-local notes; the scroll showcase does not provide a discussion-notes editor.
 
 See [scroll preview instructions and browser-check boundaries](docs/SCROLL-PREVIEW.md).
 
@@ -80,7 +80,9 @@ Open the local URL printed by the server. The pinned `cf` tool builds the Worker
 
 ## Publish to workers.dev
 
-The archived website was published on 4 November 2026 at [vascout-research-dossier.zerilloj17.workers.dev](https://vascout-research-dossier.zerilloj17.workers.dev). The initial release used commit `a69945b6cec3d396dfcfc2139b79557969d46e87` and Cloudflare Worker version `04f3c092-89d1-4c14-8165-64e8b7df9141`. HTTPS verification matched all 28 public files to the built assets, including all 14 data files and nine PDFs.
+The live scroll showcase is [vascout-research-dossier.zerilloj17.workers.dev](https://vascout-research-dossier.zerilloj17.workers.dev). The 5 November 2026 release used [source commit `fc192de730908a5a3e198862bffcbdeb5a6833ad`](https://github.com/mragerlp/VASCOUT/commit/fc192de730908a5a3e198862bffcbdeb5a6833ad) and Cloudflare Worker version `e249071c-7cbb-4b64-a7bd-c3c2f31f0b41`. Live HTTPS verification matched all 31 public files to the build, including all 14 data files and nine PDFs. Live Chrome checks passed 30 desktop and 27 mobile/reduced-motion steps with no uncaught page errors or console errors. The [website build](https://github.com/mragerlp/VASCOUT/actions/runs/42036673397) and [research validation](https://github.com/mragerlp/VASCOUT/actions/runs/42036673670) CI runs passed for this source commit.
+
+The earlier archived release used commit `a69945b6cec3d396dfcfc2139b79557969d46e87` and Worker version `04f3c092-89d1-4c14-8165-64e8b7df9141`; its historical source remains available.
 
 Use an authenticated Cloudflare `cf` profile with Workers write access. For initial sign-in, run `npx cf auth login` from `web/` and complete the browser authorization. Set `CLOUDFLARE_ACCOUNT_ID` in the deployment environment when selecting a specific account.
 

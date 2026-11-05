@@ -1,6 +1,8 @@
-# Scroll showcase review candidate
+# Scroll showcase baseline and preview
 
-The `feature/scroll-showcase` candidate replaces the website entry point with a single-page Three.js experience. The revision-10 Charming source, canonical research tables, PDF binaries, and their manifest remain preserved.
+The `feature/scroll-showcase` baseline replaces the website entry point with a single-page Three.js experience. The revision-10 Charming source, canonical research tables, PDF binaries, and their manifest remain preserved.
+
+Published on 5 November 2026 at [the workers.dev site](https://vascout-research-dossier.zerilloj17.workers.dev/) from source commit `fc192de730908a5a3e198862bffcbdeb5a6833ad`, Worker version `e249071c-7cbb-4b64-a7bd-c3c2f31f0b41`. The active deployment was verified at 100 percent traffic. All 31 public files matched the build over HTTPS, including 14 data files and nine PDFs. Live Chrome checks passed 30 desktop and 27 mobile/reduced-motion steps with zero page or console errors. Both source-commit CI workflows passed.
 
 ## Review locally
 
@@ -37,4 +39,6 @@ The normal desktop and mobile scenarios produced no uncaught page errors or cons
 
 Physical phones, Safari/Firefox, assistive-technology use, a comprehensive accessibility audit, clinical fidelity, and independent visual acceptance are unverified. The synthetic forearm is an explanatory illustration rather than a patient-specific anatomical model.
 
-The redesign has not replaced the published archived website. Foundry status remains as documented in `FOUNDRY.md`: canonical and flattened datasets were verified at handoff; Pilot frontend, ontology hydration, actions, indexing, and Main integration were unfinished or unverified.
+The scroll showcase now serves at the existing workers.dev address. Foundry status remains as documented in `FOUNDRY.md`: canonical and flattened datasets were verified at handoff; Pilot frontend, ontology hydration, actions, indexing, and Main integration were unfinished or unverified.
+
+The next design iteration is specified in [the Claude Code handoff](CLAUDE-CODE-DESIGN-HANDOFF.md).
