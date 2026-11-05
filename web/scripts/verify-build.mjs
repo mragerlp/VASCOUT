@@ -37,9 +37,13 @@ for (const asset of decks) {
 }
 
 const html = readFileSync(join(output, 'index.html'), 'utf8');
-assert.ok(html.includes('id="app"'), 'Missing application mount');
-assert.ok(html.includes('https://github.com/mragerlp/VASCOUT#readme'), 'Missing documentation link');
+assert.ok(html.includes('id="entry-overlay"'), 'Missing entry overlay mount');
+assert.ok(html.includes('id="scroll-container"'), 'Missing scroll container mount');
+assert.ok(html.includes('id="device-reveal"'), 'Missing device reveal section');
+assert.ok(html.includes('id="exploded-anatomy"'), 'Missing exploded anatomy section');
+assert.ok(html.includes('id="onbody-demo"'), 'Missing on-body demo section');
+assert.ok(html.includes('id="three-canvas"'), 'Missing Three.js canvas mount');
 for (const [, assetPath] of html.matchAll(/(?:src|href)="(\/[^"]+)"/g)) {
   readFileSync(join(output, assetPath.slice(1)));
 }
-console.log('PASS: built UI, stylesheet, adapter, 14 data files and nine manifest-hashed PDFs.');
+console.log('PASS: built scroll showcase with entry/scroll/on-body mounts, 14 data files and nine manifest-hashed PDFs.');

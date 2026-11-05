@@ -3,13 +3,85 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VASCOUT — archived research preview</title>
-  <link rel="stylesheet" href="/styles.css">
-  <style>.archive-notice{font:12px/1.5 system-ui,sans-serif;padding:8px 16px;background:#203d43;color:#fff}.archive-notice a{color:#e9b77a}</style>
+  <title>VASCOUT — Skin Transillumination Device · Research Concept</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/src/styles.css">
 </head>
 <body>
-  <div class="archive-notice">Archived VASCOUT revision 10 · Research concept, not for patient use · Notes stay in this browser only · <a href="https://github.com/mragerlp/VASCOUT#readme">Repository documentation</a></div>
-  <div id="app"></div>
-  <script src="/local-bridge.js"></script>
+  <!-- Entry overlay -->
+  <div id="entry-overlay" class="entry-overlay">
+    <div class="entry-content">
+      <h1>VASCOUT</h1>
+      <p class="tagline">Ultrasound-led vascular imaging with experimental photoacoustic contrast.</p>
+      <button id="enter-btn" class="enter-btn" aria-label="Enter the site">Enter the site</button>
+      <p id="loading" class="entry-status" role="status">Preparing the experience…</p>
+      <p id="error-state" class="entry-status" role="alert" hidden></p>
+    </div>
+  </div>
+
+  <!-- Main scroll container -->
+  <main id="scroll-container" class="scroll-container" inert>
+    <nav class="chapter-nav" aria-label="Explore VASCOUT">
+      <a href="#device-reveal" class="wordmark">VASCOUT <span>Research concept</span></a>
+      <div><a href="#exploded-anatomy">Working parts</a><a href="#onbody-demo">On body</a><a href="#about-sources">Sources</a></div>
+    </nav>
+    <p id="data-notice" class="data-notice" role="status" hidden></p>
+    <!-- Persistent 3D stage (fixed, spans all chapters) -->
+    <canvas id="three-canvas" class="persistent-stage" role="img" aria-label="Illustrative VASCOUT device model. Scroll or choose a demonstration stage to explore it."></canvas>
+
+    <!-- Section 1: Device Reveal -->
+    <section id="device-reveal" class="scene-section" data-scene="reveal">
+      <div class="section-content">
+        <h2>The Assembled Device</h2>
+        <p>A proposed handheld probe combining ultrasound with an experimental photoacoustic channel.</p>
+        <p class="scroll-cue">Scroll to look beneath the surface ↓</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Exploded Anatomy -->
+    <section id="exploded-anatomy" class="scene-section" data-scene="explode">
+      <div class="section-content">
+        <h2>Working Parts</h2>
+        <p>Five components, each with a defined purpose and required research test.</p>
+        <div id="component-list" class="component-list"></div>
+        <details id="requirements-toggle">
+          <summary>Proposed Requirements (11)</summary>
+          <div id="requirements-list" class="requirements-list"></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Section 3: On-Body Demonstration -->
+    <section id="onbody-demo" class="scene-section" data-scene="demo">
+      <div class="section-content">
+        <h2>On-Body Sequence</h2>
+        <p>Synthetic illustration of proposed placement, acquisition, mapping, and expert review. No device measurements or treatment guidance.</p>
+        <div id="stage-indicator" class="stage-indicator"></div>
+      </div>
+    </section>
+
+    <!-- Section 4: Interpretation Workflow -->
+    <section id="workflow" class="content-section">
+      <h2>Proposed Interpretation Workflow</h2>
+      <p>How the concept is intended to support a trained user's view of vessels and surrounding anatomy.</p>
+      <div id="research-questions" class="research-questions"></div>
+    </section>
+
+    <!-- Section 5: About & Sources -->
+    <section id="about-sources" class="content-section">
+      <h2>About &amp; Sources</h2>
+      <p>Research concept · Illustrative · Not for patient use.</p>
+      <div id="sources-list" class="sources-list"></div>
+      <p class="deck-caption">Draft research prospect decks. Named organizations are unconfirmed prospects; no endorsement or commitment is implied.</p>
+      <div id="pdf-links" class="pdf-links"></div>
+    </section>
+  </main>
+
+  <!-- Persistent disclaimer -->
+  <footer id="disclaimer" class="disclaimer">
+    Research concept · Illustrative · Not for patient use
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>

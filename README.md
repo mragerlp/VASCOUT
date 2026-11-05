@@ -20,7 +20,7 @@ The revision-10 package was [published on GitHub](https://github.com/mragerlp/VA
 | `assets/` | Asset inventory and retrieved PDF decks with content hashes |
 | `docs/` | Data dictionary, evidence interpretation, Foundry mapping, and source/asset provenance |
 | `preview/` | Local preview using the archived UI and a clearly labeled browser-local notes adapter |
-| `web/` | Cloudflare build of the archived dossier with browser-local notes |
+| `web/` | Vite/Three.js scroll showcase for Cloudflare Workers Static Assets |
 | `scripts/` | Literal-only extraction and data-integrity validation |
 
 ## Data snapshot
@@ -55,7 +55,11 @@ Open `http://127.0.0.1:8000/preview/` to inspect the archived UI. Preview discus
 
 ## Website build
 
-The website currently presents the archived dossier and its existing illustrative animation. The proposed motion redesign remains future work. Notes stay in the browser's local storage.
+The website now provides an Enter screen, a scroll-controlled assembled/exploded probe, all five component explanations, proposed requirements, and a four-stage synthetic on-body illustration with a tethered acquisition unit. Scroll backward to reverse the sequence, or use the chapter links and demo stage buttons. Sources and nine draft PDF decks remain available below the experience. Reduced-motion preferences use discrete scene states; browsers without WebGL receive a static illustration and readable research content.
+
+This redesign is a local review candidate on `feature/scroll-showcase`. The published `workers.dev` release described below still serves the archived dossier. The separate archived preview retains browser-local notes; the scroll showcase does not provide a discussion-notes editor.
+
+See [scroll preview instructions and browser-check boundaries](docs/SCROLL-PREVIEW.md).
 
 From the repository root, use Node.js 22.23 or later 22.x, npm, and Python 3 available as `python3`:
 
