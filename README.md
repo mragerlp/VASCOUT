@@ -74,6 +74,18 @@ npm run web:preview
 
 Open the local URL printed by the server. The pinned `cf` tool builds the Workers Static Assets package under `web/.cloudflare/output/v0/`. Its static files are in `workers/default/assets/`. The build checks the archived source copies, all 14 data files, and the nine PDF hashes. Cloudflare publication remains a separate release step.
 
+## Publish to workers.dev
+
+Use an authenticated Cloudflare `cf` profile with Workers write access. For initial sign-in, run `npx cf auth login` from `web/` and complete the browser authorization. Set `CLOUDFLARE_ACCOUNT_ID` in the deployment environment when selecting a specific account.
+
+From the repository root, run the release command.
+
+```sh
+npm run web:deploy
+```
+
+This validates the research package, builds and checks the static assets, then publishes that build as `vascout-research-dossier`. The configuration enables its `workers.dev` address. The command prints the deployed URL and Worker version for verification.
+
 ## Foundry
 
 At handoff, Foundry verification covered the **86-row, three-column** canonical snapshot and all seven flattened datasets. The matching envelope is in `data/foundry/`, and the seven table pairs are in `data/normalized/`. The Pilot frontend, final ontology hydration, actions, indexing, and Main integration were unfinished or unverified. See the [Foundry resources and verification results](docs/FOUNDRY.md) and [data dictionary](docs/DATA_DICTIONARY.md). No live synchronization connection is configured.

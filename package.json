@@ -10,6 +10,7 @@
     "preview": "python3 -m http.server 8000",
     "web:dev": "cd web && npm run dev",
     "web:build": "cd web && npm run build",
-    "web:preview": "cd web && npm run preview"
+    "web:preview": "cd web && npm run preview",
+    "web:deploy": "npm run validate && npm --prefix web run deploy"
   }
 }
