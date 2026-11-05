@@ -3,12 +3,28 @@
 import csv
 import hashlib
 import json
+import os
 import re
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {"sources":30,"claim_audits":6,"requirements":11,"components":5,"research_questions":6,"partner_prospects":8,"relationships":20}
+GENERATED_DIRS = {'.git', 'node_modules', 'dist', '.cloudflare', '.vite', '.wrangler', '__pycache__'}
+TEXT_SUFFIXES = {'.md', '.txt', '.json', '.jsonc', '.csv', '.yaml', '.yml', '.toml',
+                 '.js', '.mjs', '.cjs', '.jsx', '.ts', '.tsx', '.css', '.scss',
+                 '.html', '.svg', '.py', '.sql', '.sh', '.ps1'}
+TEXT_FILENAMES = {'.gitignore', '.gitattributes', '.npmrc', '.nvmrc', '.editorconfig',
+                  '.env', 'Dockerfile', 'LICENSE', 'README', '_headers', '_redirects'}
+
+def maintained_text_files():
+    """Prune generated trees before traversal; scan authored text, not binaries."""
+    for directory, subdirs, filenames in os.walk(ROOT):
+        subdirs[:] = [name for name in subdirs if name not in GENERATED_DIRS]
+        for name in filenames:
+            path = Path(directory) / name
+            if path.suffix.lower() in TEXT_SUFFIXES or name in TEXT_FILENAMES or name.startswith('.env.'):
+                yield path
 
 def load(path): return json.loads(path.read_text(encoding='utf-8'))
 
@@ -106,8 +122,7 @@ def main():
             assert asset['role'] == 'historical-main' and asset['retrieval_status'] == 'SUPERSEDED_NOT_INCLUDED', f'Missing current asset: {asset["key"]}'
     assert downloaded == 9, 'Expected current main deck and eight partner decks'
     # The source package contains links, not application access tokens or signed URLs.
-    for path in ROOT.rglob('*'):
-        if not path.is_file() or '.git' in path.parts or path.suffix == '.pdf': continue
+    for path in maintained_text_files():
         text = path.read_text(encoding='utf-8')
         assert not re.search(r'https://charm\.ing/[^\s"<>]*[?&]t=', text), f'App token URL in {path}'
         assert not re.search(r'https://[^\s"<>]*[?&](?:sig|signature|X-Amz-Signature)=', text, re.I), f'Signed URL in {path}'

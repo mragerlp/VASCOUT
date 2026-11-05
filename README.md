@@ -20,6 +20,7 @@ The revision-10 package was [published on GitHub](https://github.com/mragerlp/VA
 | `assets/` | Asset inventory and retrieved PDF decks with content hashes |
 | `docs/` | Data dictionary, evidence interpretation, Foundry mapping, and source/asset provenance |
 | `preview/` | Local preview using the archived UI and a clearly labeled browser-local notes adapter |
+| `web/` | Cloudflare build of the archived dossier with browser-local notes |
 | `scripts/` | Literal-only extraction and data-integrity validation |
 
 ## Data snapshot
@@ -51,6 +52,41 @@ npm run preview -- --bind 127.0.0.1
 ```
 
 Open `http://127.0.0.1:8000/preview/` to inspect the archived UI. Preview discussion notes stay in that browser's local storage and do not sync to Charming or Foundry. The faithful source still expects Charming's bridge when hosted there; the preview adapter is a separate file.
+
+## Website build
+
+The website currently presents the archived dossier and its existing illustrative animation. The proposed motion redesign remains future work. Notes stay in the browser's local storage.
+
+From the repository root, use Node.js 22.23 or later 22.x, npm, and Python 3 available as `python3`:
+
+```sh
+npm ci --prefix web
+npm run validate
+npm run web:build
+npm run web:dev
+```
+
+Stop the development server, then inspect the built website:
+
+```sh
+npm run web:preview
+```
+
+Open the local URL printed by the server. The pinned `cf` tool builds the Workers Static Assets package under `web/.cloudflare/output/v0/`. Its static files are in `workers/default/assets/`. The build checks the archived source copies, all 14 data files, and the nine PDF hashes.
+
+## Publish to workers.dev
+
+The archived website was published on 4 November 2026 at [vascout-research-dossier.zerilloj17.workers.dev](https://vascout-research-dossier.zerilloj17.workers.dev). The initial release used commit `a69945b6cec3d396dfcfc2139b79557969d46e87` and Cloudflare Worker version `04f3c092-89d1-4c14-8165-64e8b7df9141`. HTTPS verification matched all 28 public files to the built assets, including all 14 data files and nine PDFs.
+
+Use an authenticated Cloudflare `cf` profile with Workers write access. For initial sign-in, run `npx cf auth login` from `web/` and complete the browser authorization. Set `CLOUDFLARE_ACCOUNT_ID` in the deployment environment when selecting a specific account.
+
+From the repository root, run the release command.
+
+```sh
+npm run web:deploy
+```
+
+This validates the research package, builds and checks the static assets, then publishes that build as `vascout-research-dossier`. The configuration enables its `workers.dev` address. The command prints the deployed URL and Worker version for verification.
 
 ## Foundry
 
